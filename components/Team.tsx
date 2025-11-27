@@ -7,19 +7,19 @@ const executives: ExecutiveProfile[] = [
     name: "Eng. Akankwasa Justus",
     role: "Technical & Engineering Services Director",
     bio: "A registered Civil Engineer with over 30 years of experience. Holds a Masters in Construction Management from Loughborough University, UK. Specialized in major public and private projects including World Bank funded infrastructure.",
-    image: "/images/akankwasa-justus.png"
+    image: "/images/justus-headshot.png"
   },
   {
     name: "Mr. Agaba Milton",
     role: "Managing Director",
     bio: "An astute businessman and founder with a background in Economics from Makerere University. Has decades of experience in international trade, logistics, and project coordination across Uganda, Rwanda, and Kenya.",
-    image: "/images/agaba-milton.png"
+    image: "/images/milton-headshot.png"
   },
   {
     name: "Mr. Bagyendera Moses",
     role: "CEO & Business Development Director",
     bio: "ICT specialist with over 27 years of experience in international development (WHO, USAID). Holds an MSC in Computer Science and MPH. Expert in e-Government, Digital Health Policy, and large-scale system integration.",
-    image: "/images/bagyendera-moses.png"
+    image: "/images/moses-headshot.png"
   }
 ];
 
