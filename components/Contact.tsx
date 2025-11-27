@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { MapPin, Phone, Mail, X } from 'lucide-react';
+import { MapPin, Phone, Mail, X, Loader2, CheckCircle } from 'lucide-react';
+import { submitInquiry } from '../lib/supabase';
 
 const PrivacyPolicy: React.FC<{ onClose: () => void }> = ({ onClose }) => (
   <div className="fixed inset-0 z-50 overflow-y-auto">
@@ -71,7 +72,7 @@ const PrivacyPolicy: React.FC<{ onClose: () => void }> = ({ onClose }) => (
               For any privacy-related questions or requests, please contact us at:
             </p>
             <p className="text-gray-600">
-              <strong>Email:</strong> afritopprojects@gmail.com<br />
+              <strong>Email:</strong> info@afritopventures.com<br />
               <strong>Address:</strong> Plot 213, Ntinda - Kyanja Road, Kisaasi Trading Center, Kampala, Uganda
             </p>
           </div>
@@ -150,7 +151,7 @@ const TermsOfService: React.FC<{ onClose: () => void }> = ({ onClose }) => (
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">10. Contact</h3>
             <p className="text-gray-600">
               For questions about these terms, please contact us at:<br />
-              <strong>Email:</strong> afritopprojects@gmail.com<br />
+              <strong>Email:</strong> info@afritopventures.com<br />
               <strong>Phone:</strong> +256 773 889 613
             </p>
           </div>
@@ -163,6 +164,53 @@ const TermsOfService: React.FC<{ onClose: () => void }> = ({ onClose }) => (
 export const Contact: React.FC = () => {
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [showTerms, setShowTerms] = useState(false);
+  const [formData, setFormData] = useState({
+    full_name: '',
+    email: '',
+    phone: '',
+    service_interest: 'Construction & Engineering',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!formData.full_name || !formData.email || !formData.message) {
+      setErrorMessage('Please fill in all required fields.');
+      setSubmitStatus('error');
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+    setErrorMessage('');
+
+    try {
+      await submitInquiry(formData);
+      setSubmitStatus('success');
+      setFormData({
+        full_name: '',
+        email: '',
+        phone: '',
+        service_interest: 'Construction & Engineering',
+        message: ''
+      });
+    } catch (error) {
+      console.error('Error submitting inquiry:', error);
+      setErrorMessage('Failed to send message. Please try again or contact us directly.');
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <footer id="contact" className="bg-amber-50 pt-24">
@@ -208,8 +256,8 @@ export const Contact: React.FC = () => {
                 </div>
                 <div className="ml-6">
                   <h5 className="text-lg font-bold text-gray-900 mb-1">Email Us</h5>
-                  <a href="mailto:afritopprojects@gmail.com" className="text-brand-blue font-medium hover:underline">
-                    afritopprojects@gmail.com
+                  <a href="mailto:info@afritopventures.com" className="text-brand-blue font-medium hover:underline">
+                    info@afritopventures.com
                   </a>
                 </div>
               </div>
@@ -219,39 +267,109 @@ export const Contact: React.FC = () => {
           {/* Form */}
           <div className="bg-white p-8 md:p-10 rounded-2xl shadow-lg border border-gray-100">
             <h4 className="text-2xl font-bold text-gray-900 mb-6">Send a Message</h4>
-            <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
-                  <input type="text" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all" placeholder="John Doe" />
+
+            {submitStatus === 'success' ? (
+              <div className="text-center py-12">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="w-8 h-8 text-green-600" />
+                </div>
+                <h5 className="text-xl font-bold text-gray-900 mb-2">Message Sent!</h5>
+                <p className="text-gray-600 mb-6">Thank you for your inquiry. We'll get back to you within 24 hours.</p>
+                <button
+                  onClick={() => setSubmitStatus('idle')}
+                  className="text-brand-blue font-medium hover:underline"
+                >
+                  Send another message
+                </button>
+              </div>
+            ) : (
+              <form className="space-y-6" onSubmit={handleSubmit}>
+                {submitStatus === 'error' && (
+                  <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
+                    {errorMessage}
+                  </div>
+                )}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                    <input
+                      type="text"
+                      name="full_name"
+                      value={formData.full_name}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
+                      placeholder="John Doe"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                    <input
+                      type="tel"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
+                      placeholder="+256..."
+                    />
+                  </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Phone</label>
-                  <input type="tel" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all" placeholder="+256..." />
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
+                    placeholder="john@company.com"
+                    required
+                  />
                 </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
-                <input type="email" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all" placeholder="john@company.com" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Service Interest</label>
-                <select className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all">
-                  <option>Construction & Engineering</option>
-                  <option>ICT Infrastructure</option>
-                  <option>Procurement & Logistics</option>
-                  <option>Plant Hire</option>
-                  <option>Other</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                <textarea rows={4} className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all" placeholder="Tell us about your project..."></textarea>
-              </div>
-              <button className="w-full py-4 bg-brand-blue text-white font-bold rounded-lg hover:bg-slate-800 transition-colors shadow-lg">
-                Send Message
-              </button>
-            </form>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Service Interest</label>
+                  <select
+                    name="service_interest"
+                    value={formData.service_interest}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
+                  >
+                    <option>Construction & Engineering</option>
+                    <option>ICT Infrastructure</option>
+                    <option>Procurement & Logistics</option>
+                    <option>Plant Hire</option>
+                    <option>Partnerships & Joint Ventures</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                  <textarea
+                    rows={4}
+                    name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
+                    placeholder="Tell us about your project..."
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full py-4 bg-brand-blue text-white font-bold rounded-lg hover:bg-slate-800 transition-colors shadow-lg disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                      Sending...
+                    </>
+                  ) : (
+                    'Send Message'
+                  )}
+                </button>
+              </form>
+            )}
           </div>
         </div>
 

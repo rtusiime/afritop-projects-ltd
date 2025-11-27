@@ -14,7 +14,7 @@ const executives = [
     image: "/images/milton-headshot.png"
   },
   {
-    name: "Mr. Bagyendera Moses",
+    name: "Dr. Moses Bagyendera (PhD)",
     role: "CEO",
     image: "/images/moses-headshot.png"
   }

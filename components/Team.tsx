@@ -72,19 +72,19 @@ const executives: Executive[] = [
     image: "/images/milton-headshot.png"
   },
   {
-    name: "Mr. Bagyendera Moses",
+    name: "Dr. Moses Bagyendera (PhD)",
     role: "CEO & Business Development Director",
     shortBio: "A self-motivated and result-oriented professional with over 27 years of development in information communications Technology (ICT).",
     fullBio: [
-      "Moses Bagyendera has extensive experience in International Development and more specifically in WHO, USAID, and USAID-funded projects in Africa. He is highly specialized in Information Communication Technology (ICT) Governance at the Policy level, e-Government, Project management Implementation, Integration, and rollout.",
-      "Systems developed and managed include Finance and Investment, Education, eHealth, and Geographical Information Systems (GIS) with a focus on cyber security interventions and multi-stakeholders engagement models. Moses holds an MSC in Computer science from the Central South University of Technology, China with a focus on Database Networks Development, and a Masters in Public Health Informatics (MPH) from Atlantic International University in the USA.",
-      "He is a Certified Information Systems Security Professional (CISSP), Microsoft Certified Systems Engineer (MCSE), Microsoft Certified Systems Administrator (MCSA), and a BLS honors with a major in Information Science from Makerere University Kampala. Currently, he is pursuing a Ph.D. in research at Makerere University, Kampala with an interest in 'Interoperability of Data Use and Utilization in Health Care Institutions in Uganda'."
+      "Dr. Moses Bagyendera has extensive experience in International Development and more specifically in WHO, USAID, and USAID-funded projects in Africa. He is highly specialized in Information Communication Technology (ICT) Governance at the Policy level, e-Government, Project management Implementation, Integration, and rollout.",
+      "Systems developed and managed include Finance and Investment, Education, eHealth, and Geographical Information Systems (GIS) with a focus on cyber security interventions and multi-stakeholders engagement models. Dr. Bagyendera holds an MSC in Computer science from the Central South University of Technology, China with a focus on Database Networks Development, and a Masters in Public Health Informatics (MPH) from Atlantic International University in the USA.",
+      "He is a Certified Information Systems Security Professional (CISSP), Microsoft Certified Systems Engineer (MCSE), Microsoft Certified Systems Administrator (MCSA), and a BLS honors with a major in Information Science from Makerere University Kampala. He completed his Ph.D. at Makerere University, Kampala with research on 'Interoperability of Data Use and Utilization in Health Care Institutions in Uganda'."
     ],
     education: [
+      "PhD - Makerere University, Kampala",
       "MSC in Computer Science - Central South University of Technology, China",
       "Masters in Public Health Informatics (MPH) - Atlantic International University, USA",
-      "BLS Honors in Information Science - Makerere University",
-      "Ph.D. Candidate (ongoing) - Makerere University"
+      "BLS Honors in Information Science - Makerere University"
     ],
     expertise: [
       "ICT Governance & Policy",

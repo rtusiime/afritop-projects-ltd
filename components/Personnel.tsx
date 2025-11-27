@@ -9,7 +9,7 @@ interface StaffMember {
 
 const personnel: StaffMember[] = [
   { name: "Mr. Agaba Milton", position: "Managing Director", department: "management" },
-  { name: "Mr. Bagyendera Moses", position: "CEO & Business Development Director", department: "management" },
+  { name: "Dr. Moses Bagyendera (PhD)", position: "CEO & Business Development Director", department: "management" },
   { name: "Eng. Akankwasa Justus", position: "Technical & Engineering Services Director", department: "management" },
   { name: "Ms. Rukundo Nancy", position: "Manager - Procurement, Logistics & Supplies", department: "operations" },
   { name: "Eng. Muyinjo Edward", position: "Manager - Engineering Projects", department: "engineering" },
