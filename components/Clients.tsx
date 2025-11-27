@@ -1,80 +1,66 @@
 import React from 'react';
-import { Handshake } from 'lucide-react';
 
-const clients = [
-  { name: "Uganda Red Cross Society", type: "NGO" },
-  { name: "PENO", type: "Construction" },
-  { name: "Nella", type: "Agriculture" },
-  { name: "Bemuga", type: "Engineering" },
-  { name: "RKA & Company", type: "Accountants" },
-  { name: "Jab Lands (U) Ltd", type: "Real Estate" },
-  { name: "Balistique Service Limited", type: "Services" },
-  { name: "Maintenance Group Ltd", type: "Maintenance" },
-  { name: "GeoQuest Exploration", type: "Mining" },
-  { name: "GK Properties", type: "Real Estate" },
-  { name: "IBB International Ltd", type: "Construction" },
-  { name: "SBI International Holdings AG", type: "Investment" },
-  { name: "Archtech Consults (U) Ltd", type: "Architecture" },
-  { name: "KREG Associates", type: "Engineering" },
-  { name: "Ficah Enterprises (U) Limited", type: "Supplies" },
-  { name: "Reynolds Construction Company Ltd", type: "Construction" },
-  { name: "Basic Group Ltd", type: "Construction" },
-  { name: "District Local Governments", type: "Government" },
+const clientLogos = [
+  { name: "Uganda Red Cross Society", logo: "/images/logos/uganda-red-cross.png" },
+  { name: "PENO", logo: "/images/logos/peno.png" },
+  { name: "Nella", logo: "/images/logos/nella.png" },
+  { name: "GeoQuest Exploration", logo: "/images/logos/geoquest.png" },
+  { name: "Maintenance Group Ltd", logo: "/images/logos/maintenance-group.png" },
+  { name: "Balistque Service Limited", logo: "/images/logos/balistque.png" },
+  { name: "Reynolds Construction Company", logo: "/images/logos/rcc.png" },
 ];
 
 const partners = [
-  "Ministry of Education and Sports",
-  "Ministry of Works and Transport",
-  "Uganda National Roads Authority (UNRA)",
-  "National Water & Sewerage Corporation",
-  "Kampala Capital City Authority (KCCA)",
+  "Ministry of Education & Sports",
+  "Uganda National Roads Authority",
+  "National Water & Sewerage Corp",
+  "Kampala Capital City Authority",
   "World Bank",
-  "African Development Bank (ADB)",
+  "African Development Bank",
   "UNICEF",
-  "Various District Local Governments",
 ];
 
 export const Clients: React.FC = () => {
   return (
-    <section id="clients" className="py-24 bg-white">
+    <section id="clients" className="py-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">Trusted By</h2>
-          <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Clients, Partners & Consulting Firms</h3>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            We have built strong relationships with leading organizations across government, private sector, and international development.
-          </p>
+          <h3 className="text-3xl md:text-4xl font-bold text-gray-900">Our Clients & Partners</h3>
         </div>
 
-        {/* Clients Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-16">
-          {clients.map((client, idx) => (
-            <div
-              key={idx}
-              className="bg-gray-50 rounded-xl p-4 text-center hover:bg-amber-50 hover:shadow-md transition-all group cursor-default"
-            >
-              <div className="w-12 h-12 bg-white rounded-full mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:bg-brand-gold group-hover:text-white transition-colors">
-                <span className="text-brand-blue font-bold text-sm group-hover:text-white">
-                  {client.name.split(' ').map(w => w[0]).slice(0, 2).join('')}
-                </span>
+        {/* Logo Marquee - Modern infinite scroll effect */}
+        <div className="relative mb-16">
+          {/* Gradient overlays for fade effect */}
+          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10"></div>
+
+          {/* Scrolling container */}
+          <div className="flex animate-marquee">
+            {[...clientLogos, ...clientLogos].map((client, idx) => (
+              <div
+                key={idx}
+                className="flex-shrink-0 mx-8 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300"
+              >
+                <img
+                  src={client.logo}
+                  alt={client.name}
+                  className="h-16 w-auto object-contain"
+                  title={client.name}
+                />
               </div>
-              <h4 className="text-sm font-semibold text-gray-900 leading-tight">{client.name}</h4>
-              <p className="text-xs text-gray-400 mt-1">{client.type}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* Government & Development Partners */}
-        <div className="bg-brand-blue rounded-2xl p-8 md:p-12">
-          <div className="flex items-center justify-center gap-3 mb-8">
-            <Handshake className="w-8 h-8 text-brand-gold" />
-            <h4 className="text-2xl font-bold text-white">Government & Development Partners</h4>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4">
+        <div className="text-center">
+          <p className="text-sm text-gray-500 uppercase tracking-wider mb-6">Government & Development Partners</p>
+          <div className="flex flex-wrap justify-center gap-3">
             {partners.map((partner, idx) => (
               <span
                 key={idx}
-                className="px-4 py-2 bg-white/10 rounded-full text-white text-sm hover:bg-brand-gold hover:text-brand-blue transition-colors cursor-default"
+                className="px-4 py-2 bg-gray-100 rounded-full text-gray-600 text-sm hover:bg-brand-gold hover:text-white transition-colors"
               >
                 {partner}
               </span>
@@ -82,6 +68,20 @@ export const Clients: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* CSS for marquee animation */}
+      <style>{`
+        @keyframes marquee {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+          animation: marquee 20s linear infinite;
+        }
+        .animate-marquee:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
     </section>
   );
 };

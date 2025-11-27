@@ -1,29 +1,24 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Services } from './components/Services';
-import { Projects } from './components/Projects';
-import { Team } from './components/Team';
-import { Personnel } from './components/Personnel';
-import { Clients } from './components/Clients';
 import { Contact } from './components/Contact';
+import { Home } from './pages/Home';
+import { TeamPage } from './pages/TeamPage';
 
 const App: React.FC = () => {
   return (
-    <div className="font-sans text-brand-blue antialiased">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Services />
-        <Projects />
-        <Team />
-        <Personnel />
-        <Clients />
-      </main>
-      <Contact />
-    </div>
+    <Router>
+      <div className="font-sans text-brand-blue antialiased">
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/team" element={<TeamPage />} />
+          </Routes>
+        </main>
+        <Contact />
+      </div>
+    </Router>
   );
 };
 
