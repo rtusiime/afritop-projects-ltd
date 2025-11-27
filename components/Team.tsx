@@ -5,21 +5,21 @@ import { ExecutiveProfile } from '../types';
 const executives: ExecutiveProfile[] = [
   {
     name: "Eng. Akankwasa Justus",
-    role: "Director",
+    role: "Technical & Engineering Services Director",
     bio: "A registered Civil Engineer with over 30 years of experience. Holds a Masters in Construction Management from Loughborough University, UK. Specialized in major public and private projects including World Bank funded infrastructure.",
-    image: "https://picsum.photos/seed/executive1/400/400"
+    image: "/images/akankwasa-justus.png"
   },
   {
     name: "Mr. Agaba Milton",
     role: "Managing Director",
     bio: "An astute businessman and founder with a background in Economics from Makerere University. Has decades of experience in international trade, logistics, and project coordination across Uganda, Rwanda, and Kenya.",
-    image: "https://picsum.photos/seed/executive2/400/400"
+    image: "/images/agaba-milton.png"
   },
   {
     name: "Mr. Bagyendera Moses",
-    role: "Director & CEO",
+    role: "CEO & Business Development Director",
     bio: "ICT specialist with over 27 years of experience in international development (WHO, USAID). Holds an MSC in Computer Science and MPH. Expert in e-Government, Digital Health Policy, and large-scale system integration.",
-    image: "https://picsum.photos/seed/executive3/400/400"
+    image: "/images/bagyendera-moses.png"
   }
 ];
 

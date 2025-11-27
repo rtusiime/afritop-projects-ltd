@@ -12,9 +12,9 @@ export const About: React.FC = () => {
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-gold/20 rounded-tl-3xl z-0"></div>
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://picsum.photos/seed/meeting/800/1000" 
-                alt="Engineering Team" 
+              <img
+                src="/images/team-meeting.png"
+                alt="Afritop Engineering Team at Construction Site"
                 className="w-full h-auto object-cover"
               />
             </div>

@@ -6,9 +6,9 @@ export const Hero: React.FC = () => {
     <section id="home" className="relative h-screen min-h-[600px] flex items-center">
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://picsum.photos/seed/construction9/1920/1080" 
-          alt="Construction Site" 
+        <img
+          src="/images/road-works.png"
+          alt="Afritop Road Construction Site"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-brand-blue/80 mix-blend-multiply"></div>

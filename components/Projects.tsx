@@ -1,14 +1,15 @@
 import React from 'react';
 
+const projects = [
+  { image: "/images/road-construction.png", title: "Road Paving & School Block Construction", category: "Civil Works" },
+  { image: "/images/completed-building.png", title: "Residential Building Project", category: "Construction" },
+  { image: "/images/network-cables.png", title: "ICT Network Infrastructure", category: "ICT" },
+  { image: "/images/trucks-fleet.png", title: "Cargo Transportation Fleet", category: "Logistics" },
+  { image: "/images/water-pipe.png", title: "Water Pipeline Installation", category: "Water Works" },
+  { image: "/images/road-works.png", title: "Road Construction & Earthworks", category: "Civil Works" },
+];
+
 export const Projects: React.FC = () => {
-  const projectImages = [
-    "https://picsum.photos/seed/road/600/400",
-    "https://picsum.photos/seed/building/600/400",
-    "https://picsum.photos/seed/server/600/400",
-    "https://picsum.photos/seed/truck/600/400",
-    "https://picsum.photos/seed/water/600/400",
-    "https://picsum.photos/seed/worker/600/400",
-  ];
 
   return (
     <section id="projects" className="py-24 bg-brand-blue text-white">
@@ -26,17 +27,17 @@ export const Projects: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projectImages.map((src, idx) => (
+          {projects.map((project, idx) => (
             <div key={idx} className="relative group overflow-hidden rounded-lg bg-slate-800 aspect-[4/3]">
-              <img 
-                src={src} 
-                alt={`Project ${idx + 1}`} 
+              <img
+                src={project.image}
+                alt={project.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
               />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                <p className="text-brand-gold text-xs font-bold uppercase mb-1">Completed</p>
-                <h5 className="text-lg font-bold text-white">Infrastructure Development Phase {idx + 1}</h5>
+                <p className="text-brand-gold text-xs font-bold uppercase mb-1">{project.category}</p>
+                <h5 className="text-lg font-bold text-white">{project.title}</h5>
               </div>
             </div>
           ))}

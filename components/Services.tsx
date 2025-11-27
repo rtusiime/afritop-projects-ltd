@@ -43,7 +43,7 @@ const services: ServiceItem[] = [
 
 export const Services: React.FC = () => {
   return (
-    <section id="services" className="py-24 bg-slate-50">
+    <section id="services" className="py-24 bg-amber-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">Our Expertise</h2>

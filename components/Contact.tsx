@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
-    <footer id="contact" className="bg-slate-50 pt-24">
+    <footer id="contact" className="bg-amber-50 pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
           
@@ -24,7 +24,8 @@ export const Contact: React.FC = () => {
                   <h5 className="text-lg font-bold text-gray-900 mb-1">Head Office</h5>
                   <p className="text-gray-600">Plot 213, Ntinda - Kyanja Road</p>
                   <p className="text-gray-600">Kisaasi Trading Center</p>
-                  <p className="text-gray-600">P.O. Box 180752, Kampala - Uganda</p>
+                  <p className="text-gray-600">Ntinda, Kampala - Uganda</p>
+                  <p className="text-gray-600">P.O. Box 180752</p>
                 </div>
               </div>
 

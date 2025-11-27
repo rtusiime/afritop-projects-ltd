@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, HardHat } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,18 +31,12 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo Area */}
-          <div className="flex items-center space-x-2 group cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-            <div className={`p-2 rounded-lg ${scrolled ? 'bg-brand-blue text-white' : 'bg-brand-gold text-brand-blue'}`}>
-              <HardHat size={28} strokeWidth={2} />
-            </div>
-            <div className="flex flex-col">
-              <span className={`text-xl font-bold tracking-tight ${scrolled ? 'text-brand-blue' : 'text-white'}`}>
-                AFRITOP
-              </span>
-              <span className={`text-[10px] uppercase tracking-widest font-semibold ${scrolled ? 'text-gray-500' : 'text-gray-200'}`}>
-                Projects Ltd
-              </span>
-            </div>
+          <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo(0,0)}>
+            <img
+              src="/images/logo.png"
+              alt="Afritop Projects Ltd"
+              className={`h-14 w-auto transition-all ${scrolled ? '' : 'brightness-0 invert'}`}
+            />
           </div>
 
           {/* Desktop Nav */}
