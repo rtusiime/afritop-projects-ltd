@@ -47,7 +47,7 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Stats Bar */}
-      <div className="absolute bottom-0 w-full bg-white/5 border-t border-white/10 backdrop-blur-md hidden md:block">
+      <div className="absolute bottom-0 w-full bg-white/5 border-t border-white/10 backdrop-blur-md hidden lg:block">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="grid grid-cols-3 gap-8">
             <div className="flex items-center space-x-4">

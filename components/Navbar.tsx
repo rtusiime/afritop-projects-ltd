@@ -39,7 +39,7 @@ export const Navbar: React.FC = () => {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Partnerships', href: '#partnerships' },
+    { name: 'Partners', href: '#partnerships' },
     { name: 'Team', href: '/team', isRoute: true },
     { name: 'Contact', href: '#contact' },
   ];
@@ -62,13 +62,13 @@ export const Navbar: React.FC = () => {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6">
             {navLinks.map((link) => (
               link.isRoute ? (
                 <Link
                   key={link.name}
                   to={link.href}
-                  className={`text-sm font-medium transition-colors hover:text-brand-gold ${
+                  className={`text-xs xl:text-sm font-medium transition-colors hover:text-brand-gold ${
                     scrolled || !isHome ? 'text-gray-700' : 'text-gray-100'
                   } ${location.pathname === link.href ? 'text-brand-gold' : ''}`}
                 >
@@ -78,7 +78,7 @@ export const Navbar: React.FC = () => {
                 <button
                   key={link.name}
                   onClick={() => handleNavClick(link.href)}
-                  className={`text-sm font-medium transition-colors hover:text-brand-gold ${
+                  className={`text-xs xl:text-sm font-medium transition-colors hover:text-brand-gold ${
                     scrolled || !isHome ? 'text-gray-700' : 'text-gray-100'
                   }`}
                 >
@@ -89,7 +89,7 @@ export const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`p-2 rounded-md ${scrolled || !isHome ? 'text-gray-900' : 'text-white'}`}
@@ -102,7 +102,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t">
+        <div className="lg:hidden bg-white border-t">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               link.isRoute ? (
