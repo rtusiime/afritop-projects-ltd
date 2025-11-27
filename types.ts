@@ -28,3 +28,19 @@ export interface ProjectCategory {
   id: string;
   name: string;
 }
+
+export interface Project {
+  id: string;
+  title: string;
+  category: string;
+  status: 'completed' | 'ongoing';
+  image: string;
+  gallery?: string[];
+  location: string;
+  client?: string;
+  duration?: string;
+  year?: string;
+  description: string;
+  scope: string[];
+  highlights?: string[];
+}
