@@ -86,16 +86,6 @@ export const Navbar: React.FC = () => {
                 </button>
               )
             ))}
-            <button
-              onClick={() => handleNavClick('#contact')}
-              className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all transform hover:scale-105 ${
-                scrolled || !isHome
-                  ? 'bg-brand-blue text-white hover:bg-brand-blue/90'
-                  : 'bg-brand-gold text-brand-blue hover:bg-yellow-400'
-              }`}
-            >
-              Get a Quote
-            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -134,14 +124,6 @@ export const Navbar: React.FC = () => {
                 </button>
               )
             ))}
-            <div className="mt-4 px-3">
-              <button
-                onClick={() => handleNavClick('#contact')}
-                className="block w-full text-center px-5 py-3 rounded-lg font-bold bg-brand-gold text-brand-blue"
-              >
-                Get a Quote
-              </button>
-            </div>
           </div>
         </div>
       )}
