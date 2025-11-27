@@ -18,9 +18,16 @@ export const About: React.FC = () => {
                 className="w-full h-auto object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-brand-blue p-8 rounded-xl shadow-xl z-20 max-w-xs hidden md:block">
-              <p className="text-brand-gold text-4xl font-bold mb-2">2009</p>
-              <p className="text-white font-medium">Established formerly as KAM Distributors, now a regional leader.</p>
+            <div className="absolute -bottom-6 -right-6 rounded-xl shadow-xl z-20 max-w-[280px] hidden md:block overflow-hidden border-4 border-white">
+              <img
+                src="/images/trucks-fleet.png"
+                alt="Afritop Cargo Fleet"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-brand-blue to-transparent p-4">
+                <p className="text-brand-gold text-2xl font-bold">Since 2009</p>
+                <p className="text-white text-xs">Regional logistics leader</p>
+              </div>
             </div>
           </div>
 
