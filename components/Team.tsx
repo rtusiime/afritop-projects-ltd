@@ -1,5 +1,4 @@
 import React from 'react';
-import { Linkedin, Mail } from 'lucide-react';
 import { ExecutiveProfile } from '../types';
 
 const executives: ExecutiveProfile[] = [
@@ -36,21 +35,11 @@ export const Team: React.FC = () => {
           {executives.map((exec, index) => (
             <div key={index} className="group">
               <div className="relative overflow-hidden rounded-xl mb-6">
-                <img 
-                  src={exec.image} 
-                  alt={exec.name} 
+                <img
+                  src={exec.image}
+                  alt={exec.name}
                   className="w-full h-80 object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-blue/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                  <div className="flex gap-4">
-                    <button className="p-2 bg-white rounded-full hover:bg-brand-gold transition-colors">
-                      <Linkedin className="w-5 h-5 text-brand-blue" />
-                    </button>
-                    <button className="p-2 bg-white rounded-full hover:bg-brand-gold transition-colors">
-                      <Mail className="w-5 h-5 text-brand-blue" />
-                    </button>
-                  </div>
-                </div>
               </div>
               <h4 className="text-xl font-bold text-gray-900">{exec.name}</h4>
               <p className="text-brand-gold font-medium text-sm mb-3 uppercase">{exec.role}</p>
