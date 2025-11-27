@@ -57,7 +57,7 @@ export const Navbar: React.FC = () => {
             <img
               src="/images/logo.png"
               alt="Afritop Projects Ltd"
-              className={`h-14 w-auto transition-all ${scrolled || !isHome ? '' : 'brightness-0 invert'}`}
+              className={`h-14 w-auto transition-all ${scrolled || !isHome ? 'invert' : ''}`}
             />
           </Link>
 
