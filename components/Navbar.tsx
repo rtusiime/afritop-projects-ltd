@@ -41,7 +41,7 @@ export const Navbar: React.FC = () => {
     { name: 'Projects', href: '#projects' },
     { name: 'Partners', href: '#partnerships' },
     { name: 'Team', href: '/team', isRoute: true },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Contact Us', href: '#contact' },
   ];
 
   return (
@@ -55,9 +55,9 @@ export const Navbar: React.FC = () => {
           {/* Logo Area */}
           <Link to="/" className="flex items-center cursor-pointer">
             <img
-              src="/images/logo.png"
+              src={scrolled || !isHome ? "/images/logo-tagline-dark.png" : "/images/logo-tagline-white.png"}
               alt="Afritop Ventures Ltd"
-              className={`h-20 w-auto transition-all ${scrolled || !isHome ? 'invert' : ''}`}
+              className="h-20 w-auto transition-all"
             />
           </Link>
 
