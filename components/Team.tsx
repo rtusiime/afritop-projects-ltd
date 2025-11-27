@@ -19,7 +19,7 @@ const executives: Executive[] = [
     shortBio: "A registered Civil Engineer with the Engineers Registration Board of Uganda and a member of Uganda Institution of Professional Engineers.",
     fullBio: [
       "Eng. Justus is a construction management specialist with a Masters in Construction Management from Loughborough University in the UK. He has been at the forefront of major public and private projects under different organizations over the last 30 years building an unmatchable resume in Project Coordination and Implementation.",
-      "His vast experience and impressive skill set have been key in shepherding Afritop Projects Ltd to create systems and processes that set the company apart."
+      "His vast experience and impressive skill set have been key in shepherding Afritop Ventures Ltd to create systems and processes that set the company apart."
     ],
     education: [
       "Masters in Construction Management - Loughborough University, UK",
@@ -48,7 +48,7 @@ const executives: Executive[] = [
     fullBio: [
       "Milton Agaba completed a Bachelor's degree in Economics at Makerere University and immediately got an eight months contract employment with UNICEF as a researcher on a Social Research Project. He joined Uganda Railways Corporation (URC) in February 1994 after graduation, working as an Economist in the Planning & Development Department and later as an operations officer.",
       "In the Rail Operations Department, he quickly rose through the ranks to become the Principal Operations Officer at Tororo Interstate Station in January 1999. In June 2000, he became the project coordinator of a new Rail Tracker project known as Advanced Cargo Information System (ACIS) at URC headquarters. The Project was funded and executed by UNCTAD valued at one and a half million dollars (USD1.5M).",
-      "In July 2001, he transitioned into private business and moved to Kigali Rwanda where he established Kigali Wholesalers, a company that specialized in countrywide distribution of goods imported from Uganda and Kenya. He returned to Uganda and established Africa Link Investments Ltd and KAM Distributors Ltd which deal in international trade, cargo transportation and wholesale distribution. He is also a co-founder of Afritop Projects Ltd."
+      "In July 2001, he transitioned into private business and moved to Kigali Rwanda where he established Kigali Wholesalers, a company that specialized in countrywide distribution of goods imported from Uganda and Kenya. He returned to Uganda and established Africa Link Investments Ltd and KAM Distributors Ltd which deal in international trade, cargo transportation and wholesale distribution. He is also a co-founder of Afritop Ventures Ltd."
     ],
     education: [
       "Bachelor's Degree in Economics - Makerere University",
@@ -66,7 +66,7 @@ const executives: Executive[] = [
       "Coordinator of Advanced Cargo Information System (ACIS) - USD 1.5M project funded by UNCTAD",
       "Founder of Kigali Wholesalers - Countrywide distribution in Rwanda",
       "Established Africa Link Investments Ltd and KAM Distributors Ltd",
-      "Co-founder of Afritop Projects Ltd",
+      "Co-founder of Afritop Ventures Ltd",
       "Distribution operations across Uganda, Rwanda, Kenya, and DRC"
     ],
     image: "/images/milton-headshot.png"

@@ -56,7 +56,7 @@ export const Navbar: React.FC = () => {
           <Link to="/" className="flex items-center cursor-pointer">
             <img
               src="/images/logo.png"
-              alt="Afritop Projects Ltd"
+              alt="Afritop Ventures Ltd"
               className={`h-14 w-auto transition-all ${scrolled || !isHome ? 'invert' : ''}`}
             />
           </Link>

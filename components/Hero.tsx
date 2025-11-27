@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
             <span className="text-brand-gold">East Africa's Infrastructure</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-10 leading-relaxed max-w-2xl">
-            Afritop Projects Ltd is a premier multi-disciplinary contractor delivering world-class solutions in Engineering, Construction, ICT, and Logistics.
+            Afritop Ventures Ltd is a premier multi-disciplinary contractor delivering world-class solutions in Engineering, Construction, ICT, and Logistics.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

@@ -29,7 +29,7 @@ export const About: React.FC = () => {
             <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">About Afritop</h2>
             <h3 className="text-4xl font-bold text-gray-900 mb-6">Excellence in Every Detail</h3>
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Afritop Projects Ltd is one of Uganda’s leading companies in engineering, construction, cargo transportation, and ICT infrastructure. 
+              Afritop Ventures Ltd is one of Uganda's leading companies in engineering, construction, cargo transportation, and ICT infrastructure. 
               Founded in 2009, we have evolved from a distribution company into a multi-disciplinary powerhouse serving the Great Lakes region.
             </p>
 

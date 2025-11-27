@@ -293,7 +293,7 @@ export const Projects: React.FC = () => {
             <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">Portfolio</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white">Delivering Excellence Across Sectors</h3>
             <p className="text-gray-300 mt-4">
-              Afritop Projects Ltd has successfully participated in competitive bidding processes for procurement, supplies, and engineering projects both locally and internationally.
+              Afritop Ventures Ltd has successfully participated in competitive bidding processes for procurement, supplies, and engineering projects both locally and internationally.
             </p>
           </div>
         </div>

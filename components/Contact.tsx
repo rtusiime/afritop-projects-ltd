@@ -20,7 +20,7 @@ const PrivacyPolicy: React.FC<{ onClose: () => void }> = ({ onClose }) => (
           <div className="prose prose-gray max-w-none">
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">1. Information We Collect</h3>
             <p className="text-gray-600 mb-4">
-              Afritop Projects Ltd ("we", "our", or "us") collects information you provide directly when you:
+              Afritop Ventures Ltd ("we", "our", or "us") collects information you provide directly when you:
             </p>
             <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
               <li>Submit a contact form or inquiry on our website</li>
@@ -100,12 +100,12 @@ const TermsOfService: React.FC<{ onClose: () => void }> = ({ onClose }) => (
           <div className="prose prose-gray max-w-none">
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">1. Acceptance of Terms</h3>
             <p className="text-gray-600 mb-4">
-              By accessing and using the Afritop Projects Ltd website and services, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
+              By accessing and using the Afritop Ventures Ltd website and services, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">2. Services</h3>
             <p className="text-gray-600 mb-4">
-              Afritop Projects Ltd provides engineering, construction, ICT infrastructure, procurement, and logistics services. Specific terms for individual projects are outlined in separate service agreements and contracts.
+              Afritop Ventures Ltd provides engineering, construction, ICT infrastructure, procurement, and logistics services. Specific terms for individual projects are outlined in separate service agreements and contracts.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">3. Client Responsibilities</h3>
@@ -129,12 +129,12 @@ const TermsOfService: React.FC<{ onClose: () => void }> = ({ onClose }) => (
 
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">6. Warranty & Liability</h3>
             <p className="text-gray-600 mb-4">
-              Afritop Projects Ltd warrants that all work will be performed in a professional manner in accordance with industry standards. Specific warranty periods are outlined in individual contracts. Our liability is limited to the value of the contract unless otherwise agreed.
+              Afritop Ventures Ltd warrants that all work will be performed in a professional manner in accordance with industry standards. Specific warranty periods are outlined in individual contracts. Our liability is limited to the value of the contract unless otherwise agreed.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">7. Intellectual Property</h3>
             <p className="text-gray-600 mb-4">
-              All designs, drawings, and specifications created by Afritop Projects Ltd remain our intellectual property until full payment is received. Upon payment, rights transfer as specified in the project contract.
+              All designs, drawings, and specifications created by Afritop Ventures Ltd remain our intellectual property until full payment is received. Upon payment, rights transfer as specified in the project contract.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6 mb-3">8. Dispute Resolution</h3>
@@ -256,7 +256,7 @@ export const Contact: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-200 py-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Afritop Projects Ltd. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Afritop Ventures Ltd. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <button onClick={() => setShowPrivacy(true)} className="hover:text-brand-blue transition-colors">
               Privacy Policy

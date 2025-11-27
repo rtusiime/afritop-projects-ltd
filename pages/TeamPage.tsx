@@ -19,7 +19,7 @@ export const TeamPage: React.FC = () => {
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Team</h1>
           <p className="text-white/80 text-lg max-w-2xl">
-            Meet the experienced professionals driving Afritop Projects Ltd's success across engineering,
+            Meet the experienced professionals driving Afritop Ventures Ltd's success across engineering,
             construction, ICT, and logistics sectors.
           </p>
         </div>

@@ -50,7 +50,7 @@ export const Personnel: React.FC = () => {
           <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">Our Team</h2>
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Key Personnel</h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Afritop Projects Ltd employs a cross-section of staff with multi-disciplinary experience,
+            Afritop Ventures Ltd employs a cross-section of staff with multi-disciplinary experience,
             both on a full-time basis as well as on contract depending on demand.
           </p>
         </div>
