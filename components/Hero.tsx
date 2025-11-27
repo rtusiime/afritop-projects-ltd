@@ -47,28 +47,28 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Stats Bar */}
-      <div className="absolute bottom-0 w-full bg-white/5 border-t border-white/10 backdrop-blur-md hidden xl:block">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="grid grid-cols-3 gap-8">
-            <div className="flex items-center space-x-4">
-              <ShieldCheck className="w-10 h-10 text-brand-gold" />
+      <div className="absolute bottom-0 w-full bg-white/5 border-t border-white/10 backdrop-blur-md hidden md:block">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 lg:py-6">
+          <div className="grid grid-cols-3 gap-2 md:gap-4 lg:gap-8">
+            <div className="flex items-center space-x-2 lg:space-x-4">
+              <ShieldCheck className="w-6 h-6 lg:w-10 lg:h-10 text-brand-gold flex-shrink-0" />
               <div>
-                <p className="text-2xl font-bold text-white">14+ Years</p>
-                <p className="text-sm text-gray-300">Operational Excellence</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold text-white">14+ Years</p>
+                <p className="text-xs lg:text-sm text-gray-300 hidden sm:block">Operational Excellence</p>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              <TrendingUp className="w-10 h-10 text-brand-gold" />
+            <div className="flex items-center space-x-2 lg:space-x-4">
+              <TrendingUp className="w-6 h-6 lg:w-10 lg:h-10 text-brand-gold flex-shrink-0" />
               <div>
-                <p className="text-2xl font-bold text-white">Multi-National</p>
-                <p className="text-sm text-gray-300">Uganda, Kenya, DRC</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold text-white">Multi-National</p>
+                <p className="text-xs lg:text-sm text-gray-300 hidden sm:block">Uganda, Kenya, DRC</p>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              <Users className="w-10 h-10 text-brand-gold" />
+            <div className="flex items-center space-x-2 lg:space-x-4">
+              <Users className="w-6 h-6 lg:w-10 lg:h-10 text-brand-gold flex-shrink-0" />
               <div>
-                <p className="text-2xl font-bold text-white">Verified</p>
-                <p className="text-sm text-gray-300">Govt & UN Agencies</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold text-white">Verified</p>
+                <p className="text-xs lg:text-sm text-gray-300 hidden sm:block">Govt & UN Agencies</p>
               </div>
             </div>
           </div>
