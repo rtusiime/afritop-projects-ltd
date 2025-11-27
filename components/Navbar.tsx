@@ -62,7 +62,7 @@ export const Navbar: React.FC = () => {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden xl:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-6">
             {navLinks.map((link) => (
               link.isRoute ? (
                 <Link
@@ -89,7 +89,7 @@ export const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="xl:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`p-2 rounded-md ${scrolled || !isHome ? 'text-gray-900' : 'text-white'}`}
@@ -102,7 +102,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="xl:hidden bg-white border-t">
+        <div className="lg:hidden bg-white border-t">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               link.isRoute ? (
