@@ -137,6 +137,7 @@ export const Partnerships: React.FC = () => {
               <span className="px-3 py-1 bg-brand-blue/10 text-brand-blue text-xs font-semibold rounded-full">World Bank</span>
               <span className="px-3 py-1 bg-brand-blue/10 text-brand-blue text-xs font-semibold rounded-full">African Development Bank (AfDB)</span>
               <span className="px-3 py-1 bg-brand-blue/10 text-brand-blue text-xs font-semibold rounded-full">International Monetary Fund (IMF)</span>
+              <span className="px-3 py-1 bg-brand-blue/10 text-brand-blue text-xs font-semibold rounded-full">Other International Funding Institutions</span>
             </div>
             <p className="text-gray-600 mb-4 text-sm font-medium">Project Types:</p>
             <div className="space-y-3">
