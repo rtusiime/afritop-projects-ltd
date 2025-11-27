@@ -13,7 +13,7 @@ export const About: React.FC = () => {
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-gold/20 rounded-tl-3xl z-0"></div>
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/trucks-fleet.png"
+                src="/images/trucks-fleet-hd.png"
                 alt="Afritop Cargo Transportation Fleet"
                 className="w-full h-auto object-cover"
               />
