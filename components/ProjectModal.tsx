@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { X, MapPin, Calendar, User, CheckCircle, Clock, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Project } from '../types';
 
@@ -9,9 +10,14 @@ interface ProjectModalProps {
 }
 
 export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose }) => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   if (!isOpen || !project) return null;
+
+  const translateCategory = (cat: string) => {
+    return t(`projects.categories.${cat}`, cat);
+  };
 
   const allImages = [project.image, ...(project.gallery || [])];
 
@@ -58,11 +64,11 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onC
             }`}>
               {project.status === 'completed' ? (
                 <span className="flex items-center gap-1">
-                  <CheckCircle className="w-3 h-3" /> Completed
+                  <CheckCircle className="w-3 h-3" /> {t('projects.completed')}
                 </span>
               ) : (
                 <span className="flex items-center gap-1">
-                  <Clock className="w-3 h-3" /> Ongoing
+                  <Clock className="w-3 h-3" /> {t('projects.ongoing')}
                 </span>
               )}
             </div>
@@ -101,7 +107,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onC
           <div className="p-6 md:p-8">
             {/* Category */}
             <p className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">
-              {project.category}
+              {translateCategory(project.category)}
             </p>
 
             {/* Title */}
@@ -137,7 +143,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onC
 
             {/* Description */}
             <div className="mb-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-2">Project Overview</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">{t('projectModal.projectOverview')}</h3>
               <p className="text-gray-600 leading-relaxed">
                 {project.description}
               </p>
@@ -145,7 +151,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onC
 
             {/* Scope of Work */}
             <div className="mb-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Scope of Work</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">{t('projectModal.scopeOfWork')}</h3>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 {project.scope.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2 text-gray-600">
@@ -159,7 +165,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onC
             {/* Highlights */}
             {project.highlights && project.highlights.length > 0 && (
               <div className="bg-amber-50 rounded-xl p-4 border border-amber-100">
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Project Highlights</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('projectModal.projectHighlights')}</h3>
                 <ul className="space-y-2">
                   {project.highlights.map((highlight, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-gray-700">

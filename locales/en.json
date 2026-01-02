@@ -226,5 +226,10 @@
     "sectionTitle": "Trusted By",
     "heading": "Our Clients & Partners",
     "governmentPartners": "Government & Development Partners"
+  },
+  "projectModal": {
+    "projectOverview": "Project Overview",
+    "scopeOfWork": "Scope of Work",
+    "projectHighlights": "Project Highlights"
   }
 }

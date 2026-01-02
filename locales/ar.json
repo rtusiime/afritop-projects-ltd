@@ -226,5 +226,10 @@
     "sectionTitle": "يثقون بنا",
     "heading": "عملاؤنا وشركاؤنا",
     "governmentPartners": "الشركاء الحكوميون والتنمويون"
+  },
+  "projectModal": {
+    "projectOverview": "نظرة عامة على المشروع",
+    "scopeOfWork": "نطاق العمل",
+    "projectHighlights": "أبرز إنجازات المشروع"
   }
 }

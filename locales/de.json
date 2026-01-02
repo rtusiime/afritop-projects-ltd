@@ -226,5 +226,10 @@
     "sectionTitle": "Vertraut von",
     "heading": "Unsere Kunden & Partner",
     "governmentPartners": "Regierungs- & Entwicklungspartner"
+  },
+  "projectModal": {
+    "projectOverview": "Projektübersicht",
+    "scopeOfWork": "Leistungsumfang",
+    "projectHighlights": "Projekt-Highlights"
   }
 }

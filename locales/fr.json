@@ -226,5 +226,10 @@
     "sectionTitle": "Ils Nous Font Confiance",
     "heading": "Nos Clients & Partenaires",
     "governmentPartners": "Partenaires Gouvernementaux & de Développement"
+  },
+  "projectModal": {
+    "projectOverview": "Aperçu du Projet",
+    "scopeOfWork": "Portée des Travaux",
+    "projectHighlights": "Points Forts du Projet"
   }
 }

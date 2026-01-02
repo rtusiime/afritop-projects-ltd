@@ -226,5 +226,10 @@
     "sectionTitle": "客户信赖",
     "heading": "我们的客户与合作伙伴",
     "governmentPartners": "政府与发展合作伙伴"
+  },
+  "projectModal": {
+    "projectOverview": "项目概述",
+    "scopeOfWork": "工作范围",
+    "projectHighlights": "项目亮点"
   }
 }
