@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "partners": "Partner",
+    "team": "Team",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Exzellenz in Jedem Detail",
+    "title1": "Die Zukunft der Infrastruktur",
+    "title2": "Ostafrikas Aufbauen",
+    "description": "Afritop Ventures Ltd ist ein führender multidisziplinärer Auftragnehmer, der erstklassige Lösungen in Ingenieurwesen, Bauwesen, IKT und Logistik liefert.",
+    "exploreServices": "Unsere Leistungen Entdecken",
+    "aboutUs": "Über Uns",
+    "stats": {
+      "years": "14+ Jahre",
+      "yearsLabel": "Operative Exzellenz",
+      "multiNational": "Multinational",
+      "multiNationalLabel": "Uganda, Kenia, DRK",
+      "verified": "Verifiziert",
+      "verifiedLabel": "Regierung & UN-Agenturen"
+    }
+  },
+  "about": {
+    "sectionTitle": "Über Afritop",
+    "heading": "Exzellenz in Jedem Detail",
+    "description": "Afritop Ventures Ltd ist eines der führenden Unternehmen Ostafrikas in den Bereichen Ingenieurwesen, Bauwesen, Frachttransport und IKT-Infrastruktur. Gegründet 2009, haben wir uns von einem Vertriebsunternehmen zu einem multidisziplinären Kraftwerk entwickelt, das die Region der Großen Seen bedient.",
+    "established": "Früher als KAM Distributors gegründet, heute ein regionaler Marktführer.",
+    "tabs": {
+      "vision": "Unsere Vision",
+      "mission": "Unsere Mission",
+      "values": "Kernwerte"
+    },
+    "visionTitle": "Vision",
+    "visionText": "Der führende Anbieter allgemeiner Dienstleistungen in Ostafrika zu sein, fähig, große Projekte ohne Kompromisse bei Standards, Qualität und Sicherheit zu liefern.",
+    "missionTitle": "Mission",
+    "missionText": "Der führende Hauptauftragnehmer in Infrastrukturentwicklung, Beschaffung, Transport und verwandten technischen Dienstleistungen für Industriesektoren in der ostafrikanischen Region zu sein.",
+    "valuesTitle": "Unsere Werte",
+    "value1": "Höchste Standards an Professionalität",
+    "value2": "Vollständige Ehrlichkeit und Integrität",
+    "value3": "Sicherheit und Umweltverantwortung"
+  },
+  "services": {
+    "sectionTitle": "Unsere Expertise",
+    "heading": "Umfassende Lösungen für Komplexe Projekte",
+    "description": "Wir kombinieren technische Expertise mit lokalem Wissen, um Projekte zu liefern, die internationale Qualitäts- und Sicherheitsstandards erfüllen.",
+    "items": {
+      "ict": {
+        "title": "IKT-Infrastruktur",
+        "description": "End-to-End-Technologielösungen einschließlich Software, Hardware und Netzwerkintegration.",
+        "details": ["Software & Hardware Lieferung", "Systemintegration", "CCTV-Installation", "Sprach- & Datensysteme"]
+      },
+      "civil": {
+        "title": "Tiefbau",
+        "description": "Bau von Straßen, Brücken und Strukturen, die Gemeinschaften verbinden.",
+        "details": ["Straßenbau", "Brückenbau", "Wiegebrücken", "Erdarbeiten"]
+      },
+      "water": {
+        "title": "Wasserbau",
+        "description": "Umfassende Wasserbaulösungen für industrielle und kommunale Bedürfnisse.",
+        "details": ["Pumpstationen", "Wasserversorgungsnetze", "Taldämme", "Brunnenbau"]
+      },
+      "building": {
+        "title": "Hochbau",
+        "description": "Gewerbliche und Wohnbauprojekte von der Grundsteinlegung bis zur Fertigstellung.",
+        "details": ["Gewerbegebäude", "Dacharbeiten", "Mechanische Arbeiten", "Tragwerksplanung"]
+      },
+      "plant": {
+        "title": "Anlagen & Ausrüstung",
+        "description": "Vermietung von schweren Maschinen und Ausrüstung für große Bauprojekte.",
+        "details": ["Baumaschinen", "Kräne", "LKWs", "Bauwerkzeuge"]
+      },
+      "logistics": {
+        "title": "Beschaffung & Logistik",
+        "description": "Effizientes Lieferkettenmanagement und Frachttransport in ganz Ostafrika.",
+        "details": ["Frachttransport", "Materialprüfung", "Zuschlagstofflieferung", "Allgemeine Lieferungen"]
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Kontaktieren Sie Uns",
+    "heading": "Starten Sie Ihr Projekt Mit Uns",
+    "description": "Ob Sie komplexe Ingenieurlösungen, IKT-Infrastruktur oder zuverlässige Logistik benötigen, unser Team steht bereit.",
+    "headOffice": "Hauptsitz",
+    "callUs": "Rufen Sie Uns An",
+    "emailUs": "Schreiben Sie Uns",
+    "form": {
+      "title": "Nachricht Senden",
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "phone": "Telefon",
+      "phonePlaceholder": "+256...",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "max@firma.de",
+      "serviceInterest": "Interessierter Service",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
+      "submit": "Nachricht Senden",
+      "sending": "Wird gesendet...",
+      "required": "erforderlich"
+    },
+    "serviceOptions": {
+      "construction": "Bauwesen & Ingenieurwesen",
+      "ict": "IKT-Infrastruktur",
+      "logistics": "Beschaffung & Logistik",
+      "plant": "Maschinenvermietung",
+      "partnerships": "Partnerschaften & Joint Ventures",
+      "other": "Sonstiges"
+    },
+    "success": {
+      "title": "Nachricht Gesendet!",
+      "message": "Vielen Dank für Ihre Anfrage. Wir melden uns innerhalb von 24 Stunden.",
+      "sendAnother": "Weitere Nachricht senden"
+    },
+    "error": {
+      "required": "Bitte füllen Sie alle Pflichtfelder aus.",
+      "failed": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    },
+    "footer": {
+      "copyright": "Afritop Ventures Ltd. Alle Rechte vorbehalten.",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen"
+    }
+  },
+  "language": {
+    "select": "Sprache",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "zh": "中文",
+    "ar": "العربية"
+  }
+}

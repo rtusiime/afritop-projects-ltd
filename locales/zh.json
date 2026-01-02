@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "projects": "项目",
+    "partners": "合作伙伴",
+    "team": "团队",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "tagline": "精益求精",
+    "title1": "建设",
+    "title2": "东非基础设施的未来",
+    "description": "Afritop Ventures Ltd 是一家领先的多学科承包商，提供工程、建筑、信息通信技术和物流方面的世界级解决方案。",
+    "exploreServices": "探索我们的服务",
+    "aboutUs": "关于我们",
+    "stats": {
+      "years": "14+ 年",
+      "yearsLabel": "卓越运营",
+      "multiNational": "跨国企业",
+      "multiNationalLabel": "乌干达、肯尼亚、刚果民主共和国",
+      "verified": "已认证",
+      "verifiedLabel": "政府和联合国机构"
+    }
+  },
+  "about": {
+    "sectionTitle": "关于 Afritop",
+    "heading": "精益求精",
+    "description": "Afritop Ventures Ltd 是东非领先的工程、建筑、货运和信息通信技术基础设施公司之一。公司成立于2009年，已从一家分销公司发展成为服务大湖地区的多学科综合企业。",
+    "established": "前身为 KAM Distributors，现为区域领导者。",
+    "tabs": {
+      "vision": "我们的愿景",
+      "mission": "我们的使命",
+      "values": "核心价值观"
+    },
+    "visionTitle": "愿景声明",
+    "visionText": "成为东非领先的综合服务提供商，能够在不妥协标准、质量和安全的情况下交付重大项目。",
+    "missionTitle": "使命声明",
+    "missionText": "成为基础设施开发、采购供应、运输和相关技术服务领域的领先总承包商，服务于东非地区的各行业。",
+    "valuesTitle": "我们的价值观",
+    "value1": "最高标准的专业精神",
+    "value2": "完全的诚实和正直",
+    "value3": "安全和环境责任"
+  },
+  "services": {
+    "sectionTitle": "我们的专业",
+    "heading": "复杂项目的综合解决方案",
+    "description": "我们将技术专长与本地知识相结合，交付符合国际质量和安全标准的项目。",
+    "items": {
+      "ict": {
+        "title": "信息通信技术基础设施",
+        "description": "包括软件、硬件和网络集成的端到端技术解决方案。",
+        "details": ["软件和硬件供应", "系统集成", "闭路电视安装", "语音和数据系统"]
+      },
+      "civil": {
+        "title": "土木工程",
+        "description": "建设连接社区的道路、桥梁和结构框架。",
+        "details": ["道路建设", "桥梁建设", "地磅", "大型土方工程"]
+      },
+      "water": {
+        "title": "水利工程",
+        "description": "为工业和市政需求提供全面的水利工程解决方案。",
+        "details": ["泵站", "管道供水系统", "山谷水坝", "钻井工程"]
+      },
+      "building": {
+        "title": "建筑施工",
+        "description": "从地基到完工的商业和住宅建筑项目管理。",
+        "details": ["商业建筑", "屋顶工程", "机械工程", "结构设计"]
+      },
+      "plant": {
+        "title": "工厂与设备",
+        "description": "为大型建设项目提供重型机械和设备租赁。",
+        "details": ["工程机械", "起重机", "卡车", "建筑工具"]
+      },
+      "logistics": {
+        "title": "采购与物流",
+        "description": "高效的供应链管理和东非货运服务。",
+        "details": ["货物运输", "材料测试", "骨料供应", "一般供应"]
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "联系我们",
+    "heading": "与我们开始您的项目",
+    "description": "无论您需要复杂的工程解决方案、信息通信技术基础设施还是可靠的物流服务，我们的团队随时为您服务。",
+    "headOffice": "总部",
+    "callUs": "致电我们",
+    "emailUs": "发送邮件",
+    "form": {
+      "title": "发送消息",
+      "fullName": "姓名",
+      "fullNamePlaceholder": "张三",
+      "phone": "电话",
+      "phonePlaceholder": "+256...",
+      "email": "电子邮箱",
+      "emailPlaceholder": "zhang@company.com",
+      "serviceInterest": "感兴趣的服务",
+      "message": "留言",
+      "messagePlaceholder": "告诉我们您的项目...",
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "required": "必填"
+    },
+    "serviceOptions": {
+      "construction": "建筑与工程",
+      "ict": "信息通信技术基础设施",
+      "logistics": "采购与物流",
+      "plant": "设备租赁",
+      "partnerships": "合作与合资",
+      "other": "其他"
+    },
+    "success": {
+      "title": "消息已发送！",
+      "message": "感谢您的咨询。我们将在24小时内回复您。",
+      "sendAnother": "发送另一条消息"
+    },
+    "error": {
+      "required": "请填写所有必填字段。",
+      "failed": "消息发送失败。请重试或直接联系我们。"
+    },
+    "footer": {
+      "copyright": "Afritop Ventures Ltd. 保留所有权利。",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  },
+  "language": {
+    "select": "语言",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "zh": "中文",
+    "ar": "العربية"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "partners": "Partners",
+    "team": "Team",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "tagline": "Excellence In Every Detail",
+    "title1": "Building the Future of",
+    "title2": "East Africa's Infrastructure",
+    "description": "Afritop Ventures Ltd is a premier multi-disciplinary contractor delivering world-class solutions in Engineering, Construction, ICT, and Logistics.",
+    "exploreServices": "Explore Our Services",
+    "aboutUs": "About Us",
+    "stats": {
+      "years": "14+ Years",
+      "yearsLabel": "Operational Excellence",
+      "multiNational": "Multi-National",
+      "multiNationalLabel": "Uganda, Kenya, DRC",
+      "verified": "Verified",
+      "verifiedLabel": "Govt & UN Agencies"
+    }
+  },
+  "about": {
+    "sectionTitle": "About Afritop",
+    "heading": "Excellence in Every Detail",
+    "description": "Afritop Ventures Ltd is one of East Africa's leading companies in engineering, construction, cargo transportation, and ICT infrastructure. Founded in 2009, we have evolved from a distribution company into a multi-disciplinary powerhouse serving the Great Lakes region.",
+    "established": "Established formerly as KAM Distributors, now a regional leader.",
+    "tabs": {
+      "vision": "Our Vision",
+      "mission": "Our Mission",
+      "values": "Core Values"
+    },
+    "visionTitle": "Vision Statement",
+    "visionText": "To be the leading General Services provider in East Africa, capable of delivering major projects without compromising standards, quality, and safety.",
+    "missionTitle": "Mission Statement",
+    "missionText": "To be the leading prime contractor in infrastructure development, procurement supplies, transportation, and related technical services organization serving industry sectors in the East African Region.",
+    "valuesTitle": "Our Values",
+    "value1": "Highest standards of professionalism",
+    "value2": "Complete honesty and integrity",
+    "value3": "Safety and environmental responsibility"
+  },
+  "services": {
+    "sectionTitle": "Our Expertise",
+    "heading": "Comprehensive Solutions for Complex Projects",
+    "description": "We combine technical expertise with local knowledge to deliver projects that meet international standards of quality and safety.",
+    "items": {
+      "ict": {
+        "title": "ICT Infrastructure",
+        "description": "End-to-end technological solutions including software, hardware, and network integration.",
+        "details": ["Software & Hardware Supply", "System Integration", "CCTV Installation", "Voice & Data Systems"]
+      },
+      "civil": {
+        "title": "Civil Engineering",
+        "description": "Construction of roads, bridges, and structural frameworks that connect communities.",
+        "details": ["Road Construction", "Bridge Construction", "Weighbridges", "Bulk Earthworks"]
+      },
+      "water": {
+        "title": "Water Works",
+        "description": "Comprehensive water engineering solutions for industrial and municipal needs.",
+        "details": ["Pumping Stations", "Piped Water Schemes", "Valley Dams", "Borehole Construction"]
+      },
+      "building": {
+        "title": "Building Construction",
+        "description": "Commercial and residential building projects managed from foundation to finish.",
+        "details": ["Commercial Buildings", "Roofing Works", "Mechanical Works", "Structural Design"]
+      },
+      "plant": {
+        "title": "Plant & Equipment",
+        "description": "Rental of heavy machinery and equipment for large-scale construction projects.",
+        "details": ["Yellow Machines", "Cranes", "Trucks", "Construction Tools"]
+      },
+      "logistics": {
+        "title": "Procurement & Logistics",
+        "description": "Efficient supply chain management and cargo transportation across East Africa.",
+        "details": ["Cargo Transportation", "Material Testing", "Aggregate Supply", "General Supplies"]
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Get in Touch",
+    "heading": "Start Your Project With Us",
+    "description": "Whether you need complex engineering solutions, ICT infrastructure, or reliable logistics, our team is ready to assist.",
+    "headOffice": "Head Office",
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "form": {
+      "title": "Send a Message",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "phone": "Phone",
+      "phonePlaceholder": "+256...",
+      "email": "Email Address",
+      "emailPlaceholder": "john@company.com",
+      "serviceInterest": "Service Interest",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "required": "required"
+    },
+    "serviceOptions": {
+      "construction": "Construction & Engineering",
+      "ict": "ICT Infrastructure",
+      "logistics": "Procurement & Logistics",
+      "plant": "Plant Hire",
+      "partnerships": "Partnerships & Joint Ventures",
+      "other": "Other"
+    },
+    "success": {
+      "title": "Message Sent!",
+      "message": "Thank you for your inquiry. We'll get back to you within 24 hours.",
+      "sendAnother": "Send another message"
+    },
+    "error": {
+      "required": "Please fill in all required fields.",
+      "failed": "Failed to send message. Please try again or contact us directly."
+    },
+    "footer": {
+      "copyright": "Afritop Ventures Ltd. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "language": {
+    "select": "Language",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "zh": "中文",
+    "ar": "العربية"
+  }
+}

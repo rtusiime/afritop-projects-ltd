@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "projects": "Projets",
+    "partners": "Partenaires",
+    "team": "Équipe",
+    "contact": "Contactez-Nous"
+  },
+  "hero": {
+    "tagline": "L'Excellence Dans Chaque Détail",
+    "title1": "Construire l'Avenir de",
+    "title2": "l'Infrastructure de l'Afrique de l'Est",
+    "description": "Afritop Ventures Ltd est un entrepreneur multidisciplinaire de premier plan offrant des solutions de classe mondiale en ingénierie, construction, TIC et logistique.",
+    "exploreServices": "Découvrir Nos Services",
+    "aboutUs": "À Propos de Nous",
+    "stats": {
+      "years": "14+ Ans",
+      "yearsLabel": "Excellence Opérationnelle",
+      "multiNational": "Multi-National",
+      "multiNationalLabel": "Ouganda, Kenya, RDC",
+      "verified": "Vérifié",
+      "verifiedLabel": "Agences Gouv. & ONU"
+    }
+  },
+  "about": {
+    "sectionTitle": "À Propos d'Afritop",
+    "heading": "L'Excellence Dans Chaque Détail",
+    "description": "Afritop Ventures Ltd est l'une des principales entreprises d'Afrique de l'Est dans les domaines de l'ingénierie, de la construction, du transport de marchandises et de l'infrastructure TIC. Fondée en 2009, nous avons évolué d'une société de distribution à une puissance multidisciplinaire au service de la région des Grands Lacs.",
+    "established": "Anciennement établie sous le nom de KAM Distributors, maintenant un leader régional.",
+    "tabs": {
+      "vision": "Notre Vision",
+      "mission": "Notre Mission",
+      "values": "Nos Valeurs"
+    },
+    "visionTitle": "Déclaration de Vision",
+    "visionText": "Être le principal fournisseur de services généraux en Afrique de l'Est, capable de réaliser des projets majeurs sans compromettre les normes, la qualité et la sécurité.",
+    "missionTitle": "Déclaration de Mission",
+    "missionText": "Être le principal entrepreneur en développement d'infrastructure, approvisionnement, transport et services techniques connexes au service des secteurs industriels de la région est-africaine.",
+    "valuesTitle": "Nos Valeurs",
+    "value1": "Les plus hauts standards de professionnalisme",
+    "value2": "Honnêteté et intégrité complètes",
+    "value3": "Sécurité et responsabilité environnementale"
+  },
+  "services": {
+    "sectionTitle": "Notre Expertise",
+    "heading": "Solutions Complètes pour Projets Complexes",
+    "description": "Nous combinons expertise technique et connaissance locale pour livrer des projets répondant aux normes internationales de qualité et de sécurité.",
+    "items": {
+      "ict": {
+        "title": "Infrastructure TIC",
+        "description": "Solutions technologiques de bout en bout incluant logiciels, matériels et intégration réseau.",
+        "details": ["Fourniture Logiciels & Matériels", "Intégration Système", "Installation CCTV", "Systèmes Voix & Données"]
+      },
+      "civil": {
+        "title": "Génie Civil",
+        "description": "Construction de routes, ponts et structures qui relient les communautés.",
+        "details": ["Construction de Routes", "Construction de Ponts", "Ponts-bascules", "Terrassements"]
+      },
+      "water": {
+        "title": "Travaux Hydrauliques",
+        "description": "Solutions complètes d'ingénierie hydraulique pour besoins industriels et municipaux.",
+        "details": ["Stations de Pompage", "Réseaux d'Eau", "Barrages", "Forage de Puits"]
+      },
+      "building": {
+        "title": "Construction de Bâtiments",
+        "description": "Projets de construction commerciale et résidentielle gérés de la fondation à la finition.",
+        "details": ["Bâtiments Commerciaux", "Travaux de Toiture", "Travaux Mécaniques", "Conception Structurelle"]
+      },
+      "plant": {
+        "title": "Matériel & Équipement",
+        "description": "Location de machines lourdes et équipements pour projets de construction à grande échelle.",
+        "details": ["Engins de Chantier", "Grues", "Camions", "Outils de Construction"]
+      },
+      "logistics": {
+        "title": "Approvisionnement & Logistique",
+        "description": "Gestion efficace de la chaîne d'approvisionnement et transport de marchandises en Afrique de l'Est.",
+        "details": ["Transport de Marchandises", "Essais de Matériaux", "Fourniture de Granulats", "Fournitures Générales"]
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contactez-Nous",
+    "heading": "Démarrez Votre Projet Avec Nous",
+    "description": "Que vous ayez besoin de solutions d'ingénierie complexes, d'infrastructure TIC ou de logistique fiable, notre équipe est prête à vous aider.",
+    "headOffice": "Siège Social",
+    "callUs": "Appelez-Nous",
+    "emailUs": "Écrivez-Nous",
+    "form": {
+      "title": "Envoyer un Message",
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+256...",
+      "email": "Adresse Email",
+      "emailPlaceholder": "jean@entreprise.com",
+      "serviceInterest": "Service d'Intérêt",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "required": "requis"
+    },
+    "serviceOptions": {
+      "construction": "Construction & Ingénierie",
+      "ict": "Infrastructure TIC",
+      "logistics": "Approvisionnement & Logistique",
+      "plant": "Location de Matériel",
+      "partnerships": "Partenariats & Coentreprises",
+      "other": "Autre"
+    },
+    "success": {
+      "title": "Message Envoyé!",
+      "message": "Merci pour votre demande. Nous vous répondrons dans les 24 heures.",
+      "sendAnother": "Envoyer un autre message"
+    },
+    "error": {
+      "required": "Veuillez remplir tous les champs obligatoires.",
+      "failed": "Échec de l'envoi du message. Veuillez réessayer ou nous contacter directement."
+    },
+    "footer": {
+      "copyright": "Afritop Ventures Ltd. Tous droits réservés.",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
+  },
+  "language": {
+    "select": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "zh": "中文",
+    "ar": "العربية"
+  }
+}
