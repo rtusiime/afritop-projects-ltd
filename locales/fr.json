@@ -151,6 +151,89 @@
       "Civil Engineering": "Génie Civil",
       "ICT Infrastructure": "Infrastructure TIC",
       "Plant & Equipment": "Matériel & Équipement"
+    },
+    "items": {
+      "road-construction-grading": {
+        "title": "Nivellement Routier et Revêtement Bitumineux",
+        "location": "Divers Districts, Ouganda",
+        "client": "Autorité Nationale des Routes de l'Ouganda (UNRA)",
+        "duration": "12 mois",
+        "description": "Projet complet de construction routière impliquant la construction, l'entretien et l'amélioration de routes en gravier et bitumineuses dans plusieurs districts de l'Ouganda.",
+        "scope": ["Construction de routes en gravier et bitumineuses", "Entretien et amélioration des routes", "Construction de ponts et d'intersections", "Construction de ponts-bascules", "Installation d'éclairage public", "Réhabilitation des routes existantes", "Travaux de terrassement", "Construction de chaussées", "Systèmes de drainage routier"],
+        "highlights": ["Achevé en avance avec zéro incident de sécurité", "Utilisation de pratiques de construction durables", "Création d'emplois pour plus de 200 travailleurs locaux", "Amélioration de la connectivité pour les communautés rurales"]
+      },
+      "residential-estate-development": {
+        "title": "Développement de Lotissement Résidentiel Multi-Unités",
+        "location": "Kampala, Ouganda",
+        "client": "Promoteur Privé",
+        "duration": "24 mois",
+        "description": "Développement de lotissement résidentiel à grande échelle comprenant plusieurs unités de maisons en rangée avec des équipements modernes.",
+        "scope": ["Travaux de toiture avec des matériaux de qualité", "Menuiserie et ébénisterie", "Carrelage de sols et murs", "Soudure et fabrication métallique", "Travaux de terrazzo et fournitures générales", "Travaux et installations électriques", "Travaux de plomberie et mécaniques", "Travaux de peinture et de finition", "Travaux d'excavation et de fondation", "Conception structurelle et services de conseil"],
+        "highlights": ["Plus de 20 unités résidentielles en construction", "Design architectural moderne avec esthétique locale", "Matériaux de construction durables utilisés", "Systèmes de sécurité et de services intégrés"]
+      },
+      "swimming-pool-construction": {
+        "title": "Piscine Commerciale et Installations Récréatives",
+        "location": "Kampala, Ouganda",
+        "client": "Client Hôtelier",
+        "duration": "8 mois",
+        "description": "Conception et construction d'une installation de piscine de qualité commerciale comprenant des systèmes de filtration, la construction de la terrasse et l'aménagement paysager.",
+        "scope": ["Excavation et construction de la coque de piscine", "Travaux d'imperméabilisation et de carrelage", "Installation du système de filtration", "Construction de la terrasse de piscine", "Aménagement paysager et espaces extérieurs", "Systèmes d'éclairage et électriques", "Plomberie et drainage", "Installation d'équipements de sécurité"],
+        "highlights": ["Système de filtration aux normes olympiques installé", "Systèmes de pompage et de chauffage écoénergétiques", "Entièrement conforme aux réglementations de santé et sécurité", "Environnement paysager avec sièges extérieurs"]
+      },
+      "water-pipeline-installation": {
+        "title": "Construction de Canalisations et Stations de Pompage",
+        "location": "Est de l'Ouganda",
+        "client": "Société Nationale de l'Eau et de l'Assainissement",
+        "duration": "18 mois",
+        "description": "Projet majeur d'infrastructure hydraulique impliquant la construction de stations de pompage d'eau, l'installation de canalisations de grand diamètre et le développement de réseaux de distribution d'eau.",
+        "scope": ["Construction de stations de pompage d'eau", "Installation de pompes à eau", "Construction de réseaux d'eau canalisée", "Construction de systèmes d'eau gravitaire", "Construction et réhabilitation de forages", "Construction de barrages de vallée", "Construction d'étangs à poissons", "Systèmes d'approvisionnement en eau en gros", "Réseaux de distribution d'eau", "Réservoirs de stockage et stations de pompage"],
+        "highlights": ["Plus de 50 000 bénéficiaires servis", "Temps de collecte d'eau réduit de 75%", "Pratiques de gestion durable de l'eau mises en œuvre", "Techniciens locaux formés pour la maintenance continue"]
+      },
+      "culvert-bridge-construction": {
+        "title": "Construction de Ponceaux et Ponts",
+        "location": "Nord de l'Ouganda",
+        "client": "Gouvernement Local du District",
+        "duration": "10 mois",
+        "description": "Construction de ponceaux en béton armé et de structures de ponts pour améliorer le drainage et la connectivité dans les zones sujettes aux inondations.",
+        "scope": ["Construction de canaux et d'aqueducs", "Systèmes d'eaux pluviales canalisées", "Bassins d'atténuation et de rétention", "Construction de ponceaux en béton armé", "Construction de culées de pont", "Mesures de contrôle de l'érosion", "Améliorations du drainage routier"],
+        "highlights": ["Résistance réussie aux événements d'inondation majeurs", "Amélioration de l'accessibilité routière pendant les saisons des pluies", "Réduction des dommages causés par les inondations", "Utilisation de matériaux de construction locaux"]
+      },
+      "school-infrastructure": {
+        "title": "Infrastructure Scolaire et Travaux de Pavage",
+        "location": "Ouganda Rural",
+        "client": "Ministère de l'Éducation",
+        "duration": "6 mois",
+        "description": "Développement complet de l'infrastructure scolaire comprenant la construction de blocs de salles de classe, le pavage des cours d'école et l'installation des installations essentielles.",
+        "scope": ["Construction de blocs de salles de classe", "Pavage des cours d'école", "Construction d'installations sanitaires", "Installations électriques", "Systèmes d'approvisionnement en eau", "Clôtures et dispositifs de sécurité", "Systèmes de drainage", "Aménagement paysager et espaces extérieurs"],
+        "highlights": ["Plus de 1 500 étudiants bénéficiaires", "Installations accessibles aux personnes handicapées incluses", "Éclairage solaire installé", "Participation communautaire à la construction"]
+      },
+      "ict-infrastructure": {
+        "title": "Installation d'Infrastructure Réseau TIC",
+        "location": "Kampala et Districts Environnants",
+        "client": "Ministères Gouvernementaux et Organisations Privées",
+        "duration": "En Cours",
+        "description": "Solutions d'infrastructure TIC de bout en bout comprenant le câblage réseau, la construction de salles de serveurs, les systèmes de vidéosurveillance et l'infrastructure de télécommunications.",
+        "scope": ["Fourniture et installation de logiciels", "Fourniture et installation de matériel", "Conception de systèmes et de logiciels", "Services d'intégration de systèmes", "Conseil TIC général", "Solutions TIC de bout en bout", "Support et maintenance pour les projets TIC", "Installation et surveillance de vidéosurveillance", "Réseaux téléphoniques et informatiques", "Systèmes vocaux et de données généraux"],
+        "highlights": ["Plus de 500 caméras CCTV installées sur plusieurs sites", "Infrastructure réseau de niveau entreprise déployée", "Services de support et maintenance 24/7", "Personnel client formé aux opérations système"]
+      },
+      "plant-equipment-hire": {
+        "title": "Services de Location d'Équipements Lourds",
+        "location": "Région Afrique de l'Est",
+        "client": "Diverses Entreprises de Construction",
+        "duration": "En Cours",
+        "description": "Afritop maintient une flotte complète d'équipements de construction lourds disponibles à la location, y compris des excavateurs, des niveleuses, des compacteurs, des chargeuses et des camions.",
+        "scope": ["Machines jaunes (excavateurs, chargeuses, niveleuses)", "Équipements et outils de construction", "Services de grue pour le levage lourd", "Location de camions pour le transport", "Équipement de compactage", "Équipement de mélange de béton", "Équipement de topographie", "Générateurs et équipement électrique"],
+        "highlights": ["Flotte de plus de 50 machines lourdes", "Opérateurs expérimentés disponibles", "Tarifs de location compétitifs", "Déploiement rapide à travers l'Afrique de l'Est"]
+      },
+      "commercial-building": {
+        "title": "Immeuble Commercial Multi-Étages",
+        "location": "Centre-ville de Kampala, Ouganda",
+        "client": "Promoteur Commercial",
+        "duration": "30 mois",
+        "description": "Construction d'un complexe commercial moderne multi-étages comprenant des espaces de bureaux, des unités commerciales et des installations de stationnement.",
+        "scope": ["Conception et ingénierie structurelle", "Travaux de fondation et d'infrastructure", "Construction d'ossature en béton armé", "Installation de murs-rideaux et de façades", "Systèmes MEP (Mécanique, Électrique, Plomberie)", "Travaux de finition intérieure", "Installation d'ascenseurs et d'escalators", "Systèmes de sécurité incendie", "Construction de structure de stationnement"],
+        "highlights": ["Structure de 8 étages avec parking en sous-sol", "Principes de conception de bâtiments verts appliqués", "Systèmes d'extinction d'incendie de pointe", "Matériaux de finition haut de gamme partout"]
+      }
     }
   },
   "partnerships": {

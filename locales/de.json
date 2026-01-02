@@ -151,6 +151,179 @@
       "Civil Engineering": "Tiefbau",
       "ICT Infrastructure": "IKT-Infrastruktur",
       "Plant & Equipment": "Anlagen & Ausrüstung"
+    },
+    "items": {
+      "road-construction-grading": {
+        "title": "Straßenbau und Planierungsarbeiten",
+        "location": "Kasese Distrikt, Uganda",
+        "client": "Uganda Nationalstraßenbehörde",
+        "duration": "18 Monate",
+        "description": "Umfassendes Straßenbau- und Planierungsprojekt mit moderner Ausrüstung und Techniken zur Schaffung dauerhafter Straßeninfrastruktur für ländliche Gemeinden.",
+        "scope": [
+          "Geländeräumung und -vorbereitung",
+          "Planierung und Nivellierung",
+          "Entwässerungssysteme Installation",
+          "Straßendeckenverlegung",
+          "Verkehrssicherheitsmaßnahmen"
+        ],
+        "highlights": [
+          "Über 25 km neue Straße fertiggestellt",
+          "Termingerechte Lieferung innerhalb des Budgets",
+          "Null Sicherheitsvorfälle"
+        ]
+      },
+      "residential-estate-development": {
+        "title": "Wohnsiedlung Entwicklung",
+        "location": "Entebbe, Uganda",
+        "client": "Privater Bauträger",
+        "duration": "24 Monate",
+        "description": "Premium-Wohnsiedlungsentwicklung mit modernen Häusern, Landschaftsgestaltung und vollständiger Infrastruktur einschließlich Straßen, Wasser und Strom.",
+        "scope": [
+          "Standortvorbereitung und Infrastruktur",
+          "Wohngebäudebau",
+          "Landschaftsgestaltung",
+          "Interne Straßen und Gehwege",
+          "Versorgungsanschlüsse"
+        ],
+        "highlights": [
+          "20+ Premium-Wohneinheiten",
+          "Nachhaltige Baupraktiken",
+          "Laufendes Projekt mit pünktlichen Meilensteinen"
+        ]
+      },
+      "swimming-pool-construction": {
+        "title": "Schwimmbadanlage",
+        "location": "Kampala, Uganda",
+        "client": "Privater Hotelkunde",
+        "duration": "6 Monate",
+        "description": "Professioneller Schwimmbadbau mit modernen Filtersystemen, Sicherheitsmerkmalen und ästhetischem Design für eine kommerzielle Hotelanlage.",
+        "scope": [
+          "Aushubarbeiten",
+          "Betonwannen Konstruktion",
+          "Fliesenlege Arbeiten",
+          "Filtrations Systeminstallation",
+          "Deck- und Landschaftsgestaltung"
+        ],
+        "highlights": [
+          "Olympisches Standardschwimmbecken",
+          "Energieeffiziente Pumpensysteme",
+          "5-Sterne-Hotelstandards"
+        ]
+      },
+      "water-pipeline-installation": {
+        "title": "Wasserversorgungsleitung und Pumpstation",
+        "location": "Ostuganda",
+        "client": "Nationale Wasser- und Abwassergesellschaft",
+        "duration": "18 Monate",
+        "description": "Großes Wasserversorgungsinfrastrukturprojekt einschließlich Verlegung von Rohrleitungen und Bau von Pumpstationen zur Versorgung ländlicher Gemeinden mit sauberem Wasser.",
+        "scope": [
+          "Pumpstationsbau",
+          "Pumpeninstallation",
+          "Verlegung von Rohrleitungen",
+          "Ventilkammerbau",
+          "Prüfung und Inbetriebnahme"
+        ],
+        "highlights": [
+          "Über 50.000 Begünstigte versorgt",
+          "24/7 Wasserversorgung erreicht",
+          "Qualitätsstandards übertroffen"
+        ]
+      },
+      "culvert-bridge-construction": {
+        "title": "Durchlass und Brückenbau",
+        "location": "Zentraluganda",
+        "client": "Kommunalverwaltung",
+        "duration": "8 Monate",
+        "description": "Bau von Durchlässen und kleinen Brückenstrukturen zur Verbesserung der Konnektivität und Verhinderung von Überschwemmungen während der Regenzeit.",
+        "scope": [
+          "Fundament Aushub",
+          "Stahlbetonarbeiten",
+          "Durchlassverlegung",
+          "Uferbefestigung",
+          "Oberflächenveredelung"
+        ],
+        "highlights": [
+          "Hochwasserbeständiges Design",
+          "Vor dem Zeitplan fertiggestellt",
+          "Kommunale Konnektivität verbessert"
+        ]
+      },
+      "school-infrastructure": {
+        "title": "Schulinfrastruktur Projekt",
+        "location": "Verschiedene Standorte, Uganda",
+        "client": "Bildungsministerium",
+        "duration": "12 Monate",
+        "description": "Umfassendes Schulinfrastrukturprojekt einschließlich Klassenzimmerbau, Sanitäranlagen und Pflasterarbeiten für verschiedene Schulen.",
+        "scope": [
+          "Klassenzimmerbau",
+          "Sanitäreinrichtungen",
+          "Schulhof Pflasterung",
+          "Spielplatzbau",
+          "Wassertankinstallation"
+        ],
+        "highlights": [
+          "Mehrere Schulen profitiert",
+          "Verbesserte Lernumgebungen",
+          "Nachhaltige Bauweise"
+        ]
+      },
+      "ict-infrastructure": {
+        "title": "IKT-Infrastruktur Projekt",
+        "location": "Kampala, Uganda",
+        "client": "Verschiedene Unternehmenskunden",
+        "duration": "Laufend seit 2020",
+        "description": "Umfassende IKT-Infrastrukturprojekte einschließlich strukturierter Verkabelung, Netzwerkinstallation, CCTV-Systeme und Rechenzentrumseinrichtung.",
+        "scope": [
+          "Strukturierte Verkabelungsinstallation",
+          "Netzwerkinfrastruktur",
+          "CCTV- und Sicherheitssysteme",
+          "Rechenzentrumseinrichtung",
+          "Telekommunikationslösungen"
+        ],
+        "highlights": [
+          "Über 50 Standorte ausgestattet",
+          "99,9% Netzwerkverfügbarkeit erreicht",
+          "Enterprise-Level-Lösungen"
+        ]
+      },
+      "plant-equipment-hire": {
+        "title": "Anlagen- und Gerätevermietung",
+        "location": "Ostafrika",
+        "client": "Verschiedene Baukunden",
+        "duration": "Seit 2009 aktiv",
+        "description": "Umfangreiche Vermietungsdienste für Baumaschinen und schwere Geräte zur Unterstützung von Infrastrukturprojekten in ganz Ostafrika.",
+        "scope": [
+          "Baggervermietung",
+          "LKW- und Kipper-Dienste",
+          "Walzen und Verdichter",
+          "Generatorvermietung",
+          "Spezialgerätevermietung"
+        ],
+        "highlights": [
+          "Über 50 Ausrüstungseinheiten",
+          "Regionale Abdeckung",
+          "24/7 Support verfügbar"
+        ]
+      },
+      "commercial-building": {
+        "title": "Mehrstöckiges Gewerbegebäude",
+        "location": "Kampala, Uganda",
+        "client": "Privater Bauträger",
+        "duration": "30 Monate",
+        "description": "Bau eines modernen mehrstöckigen Gewerbegebäudes mit Büroflächen, Einzelhandelsflächen und unterirdischen Parkplätzen.",
+        "scope": [
+          "Tiefgründung",
+          "Stahlbetonrahmen",
+          "Fassadenarbeiten",
+          "MEP-Systeme",
+          "Innenausbau"
+        ],
+        "highlights": [
+          "12-stöckiges Gebäude",
+          "Grüne Baustandards",
+          "Moderne Architektur"
+        ]
+      }
     }
   },
   "partnerships": {
