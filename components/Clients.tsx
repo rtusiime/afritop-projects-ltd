@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const clientLogos = [
   { name: "Uganda Red Cross Society", logo: "/images/logos/uganda-red-cross.png" },
@@ -21,12 +22,14 @@ const partners = [
 ];
 
 export const Clients: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="clients" className="py-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">Trusted By</h2>
-          <h3 className="text-3xl md:text-4xl font-bold text-gray-900">Our Clients & Partners</h3>
+          <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">{t('clients.sectionTitle')}</h2>
+          <h3 className="text-3xl md:text-4xl font-bold text-gray-900">{t('clients.heading')}</h3>
         </div>
 
         {/* Logo Marquee - Modern infinite scroll effect */}
@@ -55,7 +58,7 @@ export const Clients: React.FC = () => {
 
         {/* Government & Development Partners */}
         <div className="text-center">
-          <p className="text-sm text-gray-500 uppercase tracking-wider mb-6">Government & Development Partners</p>
+          <p className="text-sm text-gray-500 uppercase tracking-wider mb-6">{t('clients.governmentPartners')}</p>
           <div className="flex flex-wrap justify-center gap-3">
             {partners.map((partner, idx) => (
               <span

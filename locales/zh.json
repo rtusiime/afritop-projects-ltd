@@ -132,5 +132,99 @@
     "de": "Deutsch",
     "zh": "中文",
     "ar": "العربية"
+  },
+  "projects": {
+    "sectionTitle": "项目案例",
+    "heading": "各领域卓越表现",
+    "description": "Afritop Ventures Ltd 已成功参与国内外采购、供应和工程项目的竞争性招标。",
+    "allProjects": "所有项目",
+    "viewDetails": "点击查看详情",
+    "showLess": "收起",
+    "viewAll": "查看全部",
+    "projectsCount": "项目",
+    "completed": "已完成",
+    "ongoing": "进行中",
+    "categories": {
+      "Road Construction": "道路建设",
+      "Building Construction": "建筑施工",
+      "Water Works": "水利工程",
+      "Civil Engineering": "土木工程",
+      "ICT Infrastructure": "信息通信技术基础设施",
+      "Plant & Equipment": "工厂与设备"
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "战略合作",
+    "heading": "合资企业与合作伙伴关系",
+    "description": "我们诚邀国际企业与我们合作开展非洲大型项目。作为本地合作伙伴，我们提供在该地区成功执行大型项目所需的专业知识、关系网络和实地存在。",
+    "projectsAbove": "适用于3.5亿美元以上项目",
+    "whyPartner": "为何与我们合作？",
+    "benefits": {
+      "localExpertise": {
+        "title": "本地专业知识",
+        "description": "深入了解东非市场、监管环境和商业文化。"
+      },
+      "establishedPresence": {
+        "title": "成熟的业务存在",
+        "description": "在乌干达和大湖地区拥有超过15年的运营经验和良好业绩记录。"
+      },
+      "trustedRelationships": {
+        "title": "可信赖的关系网络",
+        "description": "与政府机构、监管机构和行业利益相关者建立了牢固的联系。"
+      },
+      "collaborativeApproach": {
+        "title": "协作方式",
+        "description": "灵活的合作结构，包括合资企业、联合体和战略联盟。"
+      }
+    },
+    "consultancy": {
+      "title": "采购咨询服务",
+      "description": "我们提供全面的专业采购咨询服务，帮助国际合作伙伴在非洲成功获取和执行合同：",
+      "services": [
+        "识别可行项目",
+        "政府合同游说",
+        "准备和安排招标文件",
+        "协助投标提交",
+        "促进与关键利益相关者的介绍",
+        "协调会议、演示和谈判",
+        "获取办公场所、许可证和执照",
+        "建立中心设施：存储场地、设备停放场、维护车间和物流中心"
+      ],
+      "note": "以及为确保成功获得与政府或任何其他相关签约实体的合同授予和执行所合理需要的任何辅助或相关服务。"
+    },
+    "funded": {
+      "title": "国际资助项目",
+      "description": "与我们合作，赢得并执行以下机构资助的项目：",
+      "projectTypes": "项目类型：",
+      "types": [
+        "铁路线路及配套设施的建设、修复和翻新",
+        "内河港口的建设和修复",
+        "国际机场的建设和修复",
+        "国家公路建设",
+        "发电和可再生能源项目",
+        "大型供水和卫生基础设施"
+      ]
+    },
+    "cta": {
+      "title": "准备好合作了吗？",
+      "description": "致国际企业：通过与值得信赖的本地企业合作，赢得招标并在非洲执行大型项目。我们将成为您在合资企业或战略合作安排中的本地合作伙伴，提供成功所必需的本地专业知识和关系网络。",
+      "button": "洽谈合作"
+    }
+  },
+  "team": {
+    "sectionTitle": "领导团队",
+    "heading": "认识我们的团队",
+    "viewFullTeam": "查看完整团队",
+    "meetAllMembers": "认识18位以上团队成员",
+    "roles": {
+      "ceo": "首席执行官",
+      "managingDirector": "董事总经理",
+      "technicalDirector": "技术总监"
+    }
+  },
+  "clients": {
+    "sectionTitle": "客户信赖",
+    "heading": "我们的客户与合作伙伴",
+    "governmentPartners": "政府与发展合作伙伴"
   }
 }

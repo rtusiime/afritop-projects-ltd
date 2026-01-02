@@ -1,54 +1,24 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Handshake, Globe, Building, Shield, ArrowRight, CheckCircle, FileText, Landmark } from 'lucide-react';
 
-const benefits = [
-  {
-    icon: Globe,
-    title: "Local Expertise",
-    description: "Deep understanding of the East African market, regulatory landscape, and business culture."
-  },
-  {
-    icon: Building,
-    title: "Established Presence",
-    description: "Over 15 years of operations with proven track record across Uganda and the Great Lakes region."
-  },
-  {
-    icon: Shield,
-    title: "Trusted Relationships",
-    description: "Strong ties with government agencies, regulatory bodies, and industry stakeholders."
-  },
-  {
-    icon: Handshake,
-    title: "Collaborative Approach",
-    description: "Flexible partnership structures including joint ventures, consortiums, and strategic alliances."
-  }
-];
-
-const consultancyServices = [
-  "Identify viable projects",
-  "Lobby government for contracts",
-  "Preparation and arrangement of bid documents",
-  "Assist with tender submissions",
-  "Facilitate introductions to key stakeholders",
-  "Coordinate meetings, presentations and negotiations",
-  "Acquisition of work premises, permits, and licenses",
-  "Setup of central hubs: storage yards, equipment yards, maintenance workshops, and logistics centers"
-];
-
-const fundedProjectTypes = [
-  "Construction, refurbishment and rehabilitation of railway lines and support infrastructure",
-  "Construction and refurbishment of inland water ports",
-  "Construction and refurbishment of international airports",
-  "Construction of highway roads",
-  "Electric power generation and renewable energy projects",
-  "Large-scale water and sanitation infrastructure"
+const benefitConfigs = [
+  { key: 'localExpertise', icon: Globe },
+  { key: 'establishedPresence', icon: Building },
+  { key: 'trustedRelationships', icon: Shield },
+  { key: 'collaborativeApproach', icon: Handshake }
 ];
 
 export const Partnerships: React.FC = () => {
+  const { t } = useTranslation();
+
   const handleContactClick = () => {
     const element = document.querySelector('#contact');
     element?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  const consultancyServices = t('partnerships.consultancy.services', { returnObjects: true }) as string[];
+  const fundedProjectTypes = t('partnerships.funded.types', { returnObjects: true }) as string[];
 
   return (
     <section id="partnerships" className="py-24 bg-brand-blue relative overflow-hidden">
@@ -62,32 +32,30 @@ export const Partnerships: React.FC = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">
-            Strategic Partnerships
+            {t('partnerships.sectionTitle')}
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Joint Ventures & Partnerships
+            {t('partnerships.heading')}
           </h3>
           <p className="text-gray-300 text-lg leading-relaxed mb-4">
-            We invite international companies to partner with us for major projects in Africa.
-            As your local partner, we provide the expertise, relationships, and on-ground presence
-            needed to successfully execute large-scale projects across the region.
+            {t('partnerships.description')}
           </p>
           <div className="inline-flex items-center bg-brand-gold/20 border border-brand-gold/40 rounded-full px-6 py-3">
-            <span className="text-brand-gold font-bold text-lg">For Projects USD 350 Million & Above</span>
+            <span className="text-brand-gold font-bold text-lg">{t('partnerships.projectsAbove')}</span>
           </div>
         </div>
 
         {/* Why Partner With Us */}
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 mb-12">
-          <h4 className="text-2xl font-bold text-white mb-6 text-center">Why Partner With Us?</h4>
+          <h4 className="text-2xl font-bold text-white mb-6 text-center">{t('partnerships.whyPartner')}</h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {benefits.map((benefit, index) => (
+            {benefitConfigs.map((benefit, index) => (
               <div key={index} className="group text-center">
                 <div className="w-14 h-14 bg-brand-gold/20 rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:bg-brand-gold transition-colors">
                   <benefit.icon className="w-7 h-7 text-brand-gold group-hover:text-brand-blue transition-colors" />
                 </div>
-                <h5 className="text-white font-semibold mb-2">{benefit.title}</h5>
-                <p className="text-gray-400 text-sm leading-relaxed">{benefit.description}</p>
+                <h5 className="text-white font-semibold mb-2">{t(`partnerships.benefits.${benefit.key}.title`)}</h5>
+                <p className="text-gray-400 text-sm leading-relaxed">{t(`partnerships.benefits.${benefit.key}.description`)}</p>
               </div>
             ))}
           </div>
@@ -101,11 +69,10 @@ export const Partnerships: React.FC = () => {
               <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center mr-4">
                 <FileText className="w-6 h-6 text-brand-gold" />
               </div>
-              <h4 className="text-xl font-bold text-gray-900">Procurement Consultancy Services</h4>
+              <h4 className="text-xl font-bold text-gray-900">{t('partnerships.consultancy.title')}</h4>
             </div>
             <p className="text-gray-600 mb-6 text-sm">
-              We provide comprehensive professional procurement consultancy services to help
-              international partners successfully secure and execute contracts in Africa:
+              {t('partnerships.consultancy.description')}
             </p>
             <div className="space-y-3">
               {consultancyServices.map((service, index) => (
@@ -116,9 +83,7 @@ export const Partnerships: React.FC = () => {
               ))}
             </div>
             <p className="text-gray-500 text-xs mt-6 italic">
-              Plus any ancillary or related services reasonably necessary to achieve successful
-              procurement of contracts culminating in award and execution with governments or
-              any other relevant contracting entity.
+              {t('partnerships.consultancy.note')}
             </p>
           </div>
 
@@ -128,10 +93,10 @@ export const Partnerships: React.FC = () => {
               <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center mr-4">
                 <Landmark className="w-6 h-6 text-brand-gold" />
               </div>
-              <h4 className="text-xl font-bold text-gray-900">Internationally Funded Projects</h4>
+              <h4 className="text-xl font-bold text-gray-900">{t('partnerships.funded.title')}</h4>
             </div>
             <p className="text-gray-600 mb-4 text-sm">
-              Partner with us to win tenders and execute projects funded by:
+              {t('partnerships.funded.description')}
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-brand-blue/10 text-brand-blue text-xs font-semibold rounded-full">World Bank</span>
@@ -140,7 +105,7 @@ export const Partnerships: React.FC = () => {
               <span className="px-3 py-1 bg-brand-blue/10 text-brand-blue text-xs font-semibold rounded-full">Government Financing</span>
               <span className="px-3 py-1 bg-brand-blue/10 text-brand-blue text-xs font-semibold rounded-full">Other International Funding Institutions</span>
             </div>
-            <p className="text-gray-600 mb-4 text-sm font-medium">Project Types:</p>
+            <p className="text-gray-600 mb-4 text-sm font-medium">{t('partnerships.funded.projectTypes')}</p>
             <div className="space-y-3">
               {fundedProjectTypes.map((project, index) => (
                 <div key={index} className="flex items-start">
@@ -156,19 +121,16 @@ export const Partnerships: React.FC = () => {
         <div className="bg-white rounded-2xl p-8 shadow-xl">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="text-center lg:text-left">
-              <h4 className="text-2xl font-bold text-gray-900 mb-2">Ready to Partner?</h4>
+              <h4 className="text-2xl font-bold text-gray-900 mb-2">{t('partnerships.cta.title')}</h4>
               <p className="text-gray-600 max-w-2xl">
-                <strong>For International Companies:</strong> Win tenders and execute major projects
-                in Africa through partnership with a trusted local company. We become your local
-                partner in a joint venture or strategic partnership arrangement, providing the
-                local expertise and relationships essential for success.
+                {t('partnerships.cta.description')}
               </p>
             </div>
             <button
               onClick={handleContactClick}
               className="px-8 py-4 bg-brand-blue text-white font-bold rounded-full hover:bg-brand-blue/90 transition-colors whitespace-nowrap flex items-center group"
             >
-              Discuss Partnership
+              {t('partnerships.cta.button')}
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>

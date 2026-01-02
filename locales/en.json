@@ -132,5 +132,99 @@
     "de": "Deutsch",
     "zh": "中文",
     "ar": "العربية"
+  },
+  "projects": {
+    "sectionTitle": "Portfolio",
+    "heading": "Delivering Excellence Across Sectors",
+    "description": "Afritop Ventures Ltd has successfully participated in competitive bidding processes for procurement, supplies, and engineering projects both locally and internationally.",
+    "allProjects": "All Projects",
+    "viewDetails": "Click to view details",
+    "showLess": "Show Less",
+    "viewAll": "View All",
+    "projectsCount": "Projects",
+    "completed": "Completed",
+    "ongoing": "Ongoing",
+    "categories": {
+      "Road Construction": "Road Construction",
+      "Building Construction": "Building Construction",
+      "Water Works": "Water Works",
+      "Civil Engineering": "Civil Engineering",
+      "ICT Infrastructure": "ICT Infrastructure",
+      "Plant & Equipment": "Plant & Equipment"
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "Strategic Partnerships",
+    "heading": "Joint Ventures & Partnerships",
+    "description": "We invite international companies to partner with us for major projects in Africa. As your local partner, we provide the expertise, relationships, and on-ground presence needed to successfully execute large-scale projects across the region.",
+    "projectsAbove": "For Projects USD 350 Million & Above",
+    "whyPartner": "Why Partner With Us?",
+    "benefits": {
+      "localExpertise": {
+        "title": "Local Expertise",
+        "description": "Deep understanding of the East African market, regulatory landscape, and business culture."
+      },
+      "establishedPresence": {
+        "title": "Established Presence",
+        "description": "Over 15 years of operations with proven track record across Uganda and the Great Lakes region."
+      },
+      "trustedRelationships": {
+        "title": "Trusted Relationships",
+        "description": "Strong ties with government agencies, regulatory bodies, and industry stakeholders."
+      },
+      "collaborativeApproach": {
+        "title": "Collaborative Approach",
+        "description": "Flexible partnership structures including joint ventures, consortiums, and strategic alliances."
+      }
+    },
+    "consultancy": {
+      "title": "Procurement Consultancy Services",
+      "description": "We provide comprehensive professional procurement consultancy services to help international partners successfully secure and execute contracts in Africa:",
+      "services": [
+        "Identify viable projects",
+        "Lobby government for contracts",
+        "Preparation and arrangement of bid documents",
+        "Assist with tender submissions",
+        "Facilitate introductions to key stakeholders",
+        "Coordinate meetings, presentations and negotiations",
+        "Acquisition of work premises, permits, and licenses",
+        "Setup of central hubs: storage yards, equipment yards, maintenance workshops, and logistics centers"
+      ],
+      "note": "Plus any ancillary or related services reasonably necessary to achieve successful procurement of contracts culminating in award and execution with governments or any other relevant contracting entity."
+    },
+    "funded": {
+      "title": "Internationally Funded Projects",
+      "description": "Partner with us to win tenders and execute projects funded by:",
+      "projectTypes": "Project Types:",
+      "types": [
+        "Construction, refurbishment and rehabilitation of railway lines and support infrastructure",
+        "Construction and refurbishment of inland water ports",
+        "Construction and refurbishment of international airports",
+        "Construction of highway roads",
+        "Electric power generation and renewable energy projects",
+        "Large-scale water and sanitation infrastructure"
+      ]
+    },
+    "cta": {
+      "title": "Ready to Partner?",
+      "description": "For International Companies: Win tenders and execute major projects in Africa through partnership with a trusted local company. We become your local partner in a joint venture or strategic partnership arrangement, providing the local expertise and relationships essential for success.",
+      "button": "Discuss Partnership"
+    }
+  },
+  "team": {
+    "sectionTitle": "Leadership",
+    "heading": "Meet Our Team",
+    "viewFullTeam": "View Full Team",
+    "meetAllMembers": "Meet All 18+ Team Members",
+    "roles": {
+      "ceo": "CEO",
+      "managingDirector": "Managing Director",
+      "technicalDirector": "Technical Director"
+    }
+  },
+  "clients": {
+    "sectionTitle": "Trusted By",
+    "heading": "Our Clients & Partners",
+    "governmentPartners": "Government & Development Partners"
   }
 }

@@ -132,5 +132,99 @@
     "de": "Deutsch",
     "zh": "中文",
     "ar": "العربية"
+  },
+  "projects": {
+    "sectionTitle": "Portfolio",
+    "heading": "Excellence dans Tous les Secteurs",
+    "description": "Afritop Ventures Ltd a participé avec succès à des processus d'appel d'offres compétitifs pour l'approvisionnement, les fournitures et les projets d'ingénierie au niveau local et international.",
+    "allProjects": "Tous les Projets",
+    "viewDetails": "Cliquez pour voir les détails",
+    "showLess": "Voir Moins",
+    "viewAll": "Voir Tous",
+    "projectsCount": "Projets",
+    "completed": "Terminé",
+    "ongoing": "En Cours",
+    "categories": {
+      "Road Construction": "Construction Routière",
+      "Building Construction": "Construction de Bâtiments",
+      "Water Works": "Travaux Hydrauliques",
+      "Civil Engineering": "Génie Civil",
+      "ICT Infrastructure": "Infrastructure TIC",
+      "Plant & Equipment": "Matériel & Équipement"
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "Partenariats Stratégiques",
+    "heading": "Coentreprises & Partenariats",
+    "description": "Nous invitons les entreprises internationales à s'associer avec nous pour des projets majeurs en Afrique. En tant que partenaire local, nous fournissons l'expertise, les relations et la présence sur le terrain nécessaires pour exécuter avec succès des projets à grande échelle dans la région.",
+    "projectsAbove": "Pour Projets de 350 Millions USD et Plus",
+    "whyPartner": "Pourquoi S'Associer Avec Nous?",
+    "benefits": {
+      "localExpertise": {
+        "title": "Expertise Locale",
+        "description": "Compréhension approfondie du marché est-africain, du paysage réglementaire et de la culture des affaires."
+      },
+      "establishedPresence": {
+        "title": "Présence Établie",
+        "description": "Plus de 15 ans d'opérations avec un historique prouvé en Ouganda et dans la région des Grands Lacs."
+      },
+      "trustedRelationships": {
+        "title": "Relations de Confiance",
+        "description": "Liens solides avec les agences gouvernementales, les organismes de réglementation et les parties prenantes de l'industrie."
+      },
+      "collaborativeApproach": {
+        "title": "Approche Collaborative",
+        "description": "Structures de partenariat flexibles incluant coentreprises, consortiums et alliances stratégiques."
+      }
+    },
+    "consultancy": {
+      "title": "Services de Conseil en Approvisionnement",
+      "description": "Nous fournissons des services complets de conseil professionnel en approvisionnement pour aider les partenaires internationaux à obtenir et exécuter avec succès des contrats en Afrique:",
+      "services": [
+        "Identifier des projets viables",
+        "Lobbying auprès du gouvernement pour les contrats",
+        "Préparation et arrangement des documents d'appel d'offres",
+        "Assistance aux soumissions d'appels d'offres",
+        "Faciliter les présentations aux parties prenantes clés",
+        "Coordonner les réunions, présentations et négociations",
+        "Acquisition de locaux, permis et licences",
+        "Mise en place de centres: parcs de stockage, parcs d'équipement, ateliers de maintenance et centres logistiques"
+      ],
+      "note": "Plus tout service auxiliaire ou connexe raisonnablement nécessaire pour assurer l'obtention réussie des contrats aboutissant à l'attribution et à l'exécution avec les gouvernements ou toute autre entité contractante pertinente."
+    },
+    "funded": {
+      "title": "Projets Financés Internationalement",
+      "description": "Associez-vous à nous pour remporter des appels d'offres et exécuter des projets financés par:",
+      "projectTypes": "Types de Projets:",
+      "types": [
+        "Construction, réhabilitation et rénovation de lignes ferroviaires et infrastructure de support",
+        "Construction et réhabilitation de ports fluviaux",
+        "Construction et réhabilitation d'aéroports internationaux",
+        "Construction de routes nationales",
+        "Production d'électricité et projets d'énergie renouvelable",
+        "Infrastructure d'eau et d'assainissement à grande échelle"
+      ]
+    },
+    "cta": {
+      "title": "Prêt à S'Associer?",
+      "description": "Pour les Entreprises Internationales: Remportez des appels d'offres et exécutez des projets majeurs en Afrique grâce à un partenariat avec une entreprise locale de confiance. Nous devenons votre partenaire local dans une coentreprise ou un arrangement de partenariat stratégique, fournissant l'expertise locale et les relations essentielles au succès.",
+      "button": "Discuter du Partenariat"
+    }
+  },
+  "team": {
+    "sectionTitle": "Direction",
+    "heading": "Rencontrez Notre Équipe",
+    "viewFullTeam": "Voir l'Équipe Complète",
+    "meetAllMembers": "Rencontrez les 18+ Membres de l'Équipe",
+    "roles": {
+      "ceo": "PDG",
+      "managingDirector": "Directeur Général",
+      "technicalDirector": "Directeur Technique"
+    }
+  },
+  "clients": {
+    "sectionTitle": "Ils Nous Font Confiance",
+    "heading": "Nos Clients & Partenaires",
+    "governmentPartners": "Partenaires Gouvernementaux & de Développement"
   }
 }

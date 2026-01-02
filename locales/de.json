@@ -132,5 +132,99 @@
     "de": "Deutsch",
     "zh": "中文",
     "ar": "العربية"
+  },
+  "projects": {
+    "sectionTitle": "Portfolio",
+    "heading": "Exzellenz in Allen Sektoren",
+    "description": "Afritop Ventures Ltd hat erfolgreich an wettbewerbsfähigen Ausschreibungsverfahren für Beschaffung, Lieferungen und Ingenieurprojekte auf lokaler und internationaler Ebene teilgenommen.",
+    "allProjects": "Alle Projekte",
+    "viewDetails": "Klicken für Details",
+    "showLess": "Weniger Anzeigen",
+    "viewAll": "Alle Anzeigen",
+    "projectsCount": "Projekte",
+    "completed": "Abgeschlossen",
+    "ongoing": "Laufend",
+    "categories": {
+      "Road Construction": "Straßenbau",
+      "Building Construction": "Hochbau",
+      "Water Works": "Wasserbau",
+      "Civil Engineering": "Tiefbau",
+      "ICT Infrastructure": "IKT-Infrastruktur",
+      "Plant & Equipment": "Anlagen & Ausrüstung"
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "Strategische Partnerschaften",
+    "heading": "Joint Ventures & Partnerschaften",
+    "description": "Wir laden internationale Unternehmen ein, sich mit uns für große Projekte in Afrika zusammenzuschließen. Als lokaler Partner bieten wir die nötige Expertise, Beziehungen und Präsenz vor Ort für die erfolgreiche Umsetzung großer Projekte in der Region.",
+    "projectsAbove": "Für Projekte über 350 Millionen USD",
+    "whyPartner": "Warum mit uns zusammenarbeiten?",
+    "benefits": {
+      "localExpertise": {
+        "title": "Lokale Expertise",
+        "description": "Tiefes Verständnis des ostafrikanischen Marktes, der Regulierungslandschaft und Geschäftskultur."
+      },
+      "establishedPresence": {
+        "title": "Etablierte Präsenz",
+        "description": "Über 15 Jahre Betrieb mit nachgewiesener Erfolgsbilanz in Uganda und der Region der Großen Seen."
+      },
+      "trustedRelationships": {
+        "title": "Vertrauensvolle Beziehungen",
+        "description": "Starke Verbindungen zu Regierungsbehörden, Regulierungsstellen und Branchenakteuren."
+      },
+      "collaborativeApproach": {
+        "title": "Kooperativer Ansatz",
+        "description": "Flexible Partnerschaftsstrukturen einschließlich Joint Ventures, Konsortien und strategischer Allianzen."
+      }
+    },
+    "consultancy": {
+      "title": "Beschaffungsberatung",
+      "description": "Wir bieten umfassende professionelle Beschaffungsberatung, um internationalen Partnern bei der erfolgreichen Sicherung und Ausführung von Verträgen in Afrika zu helfen:",
+      "services": [
+        "Identifizierung tragfähiger Projekte",
+        "Regierungslobby für Verträge",
+        "Vorbereitung und Anordnung von Ausschreibungsunterlagen",
+        "Unterstützung bei Angebotsabgaben",
+        "Ermöglichung von Vorstellungen bei wichtigen Stakeholdern",
+        "Koordination von Meetings, Präsentationen und Verhandlungen",
+        "Beschaffung von Räumlichkeiten, Genehmigungen und Lizenzen",
+        "Einrichtung von Zentren: Lagerplätze, Ausrüstungsparks, Wartungswerkstätten und Logistikzentren"
+      ],
+      "note": "Plus alle zusätzlichen oder verwandten Dienstleistungen, die vernünftigerweise erforderlich sind, um die erfolgreiche Sicherung von Verträgen zu gewährleisten, die zur Vergabe und Ausführung mit Regierungen oder anderen relevanten Auftraggebern führen."
+    },
+    "funded": {
+      "title": "International Finanzierte Projekte",
+      "description": "Arbeiten Sie mit uns zusammen, um Ausschreibungen zu gewinnen und Projekte auszuführen, die finanziert werden von:",
+      "projectTypes": "Projekttypen:",
+      "types": [
+        "Bau, Sanierung und Renovierung von Eisenbahnlinien und Infrastruktur",
+        "Bau und Sanierung von Binnenhäfen",
+        "Bau und Sanierung internationaler Flughäfen",
+        "Bau nationaler Autobahnen",
+        "Stromerzeugung und Projekte für erneuerbare Energien",
+        "Großflächige Wasser- und Sanitärinfrastruktur"
+      ]
+    },
+    "cta": {
+      "title": "Bereit zur Partnerschaft?",
+      "description": "Für internationale Unternehmen: Gewinnen Sie Ausschreibungen und führen Sie große Projekte in Afrika durch eine Partnerschaft mit einem vertrauenswürdigen lokalen Unternehmen aus. Wir werden Ihr lokaler Partner in einem Joint Venture oder einer strategischen Partnerschaftsvereinbarung und bieten die lokale Expertise und Beziehungen, die für den Erfolg unerlässlich sind.",
+      "button": "Partnerschaft Besprechen"
+    }
+  },
+  "team": {
+    "sectionTitle": "Führung",
+    "heading": "Unser Team Kennenlernen",
+    "viewFullTeam": "Vollständiges Team Anzeigen",
+    "meetAllMembers": "Alle 18+ Teammitglieder Kennenlernen",
+    "roles": {
+      "ceo": "Geschäftsführer",
+      "managingDirector": "Geschäftsführender Direktor",
+      "technicalDirector": "Technischer Direktor"
+    }
+  },
+  "clients": {
+    "sectionTitle": "Vertraut von",
+    "heading": "Unsere Kunden & Partner",
+    "governmentPartners": "Regierungs- & Entwicklungspartner"
   }
 }

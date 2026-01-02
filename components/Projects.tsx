@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Project } from '../types';
 import { ProjectModal } from './ProjectModal';
 
@@ -273,6 +274,7 @@ const projects: Project[] = [
 ];
 
 export const Projects: React.FC = () => {
+  const { t } = useTranslation();
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [showAll, setShowAll] = useState(false);
   const [filter, setFilter] = useState<string>('all');
@@ -285,15 +287,19 @@ export const Projects: React.FC = () => {
 
   const displayedProjects = showAll ? filteredProjects : filteredProjects.slice(0, 6);
 
+  const translateCategory = (cat: string) => {
+    return t(`projects.categories.${cat}`, cat);
+  };
+
   return (
     <section id="projects" className="py-24 bg-brand-blue text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8">
           <div className="max-w-2xl">
-            <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">Portfolio</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-white">Delivering Excellence Across Sectors</h3>
+            <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">{t('projects.sectionTitle')}</h2>
+            <h3 className="text-3xl md:text-4xl font-bold text-white">{t('projects.heading')}</h3>
             <p className="text-gray-300 mt-4">
-              Afritop Ventures Ltd has successfully participated in competitive bidding processes for procurement, supplies, and engineering projects both locally and internationally.
+              {t('projects.description')}
             </p>
           </div>
         </div>
@@ -310,7 +316,7 @@ export const Projects: React.FC = () => {
                   : 'bg-white/10 text-white hover:bg-white/20'
               }`}
             >
-              {cat === 'all' ? 'All Projects' : cat}
+              {cat === 'all' ? t('projects.allProjects') : translateCategory(cat)}
             </button>
           ))}
         </div>
@@ -334,17 +340,17 @@ export const Projects: React.FC = () => {
               <div className={`absolute top-4 right-4 px-2 py-1 rounded text-xs font-bold uppercase ${
                 project.status === 'completed' ? 'bg-green-500' : 'bg-amber-500'
               }`}>
-                {project.status}
+                {t(`projects.${project.status}`)}
               </div>
 
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <p className="text-brand-gold text-xs font-bold uppercase mb-1">{project.category}</p>
+                <p className="text-brand-gold text-xs font-bold uppercase mb-1">{translateCategory(project.category)}</p>
                 <h5 className="text-lg font-bold text-white mb-2">{project.title}</h5>
                 <p className="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 line-clamp-2">
                   {project.description}
                 </p>
                 <span className="inline-block mt-3 text-brand-gold text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  Click to view details →
+                  {t('projects.viewDetails')} →
                 </span>
               </div>
             </div>
@@ -358,7 +364,7 @@ export const Projects: React.FC = () => {
               onClick={() => setShowAll(!showAll)}
               className="px-8 py-3 border border-white/20 rounded-lg hover:bg-brand-gold hover:text-brand-blue hover:border-brand-gold transition-all text-sm font-bold"
             >
-              {showAll ? 'Show Less' : `View All ${filteredProjects.length} Projects`}
+              {showAll ? t('projects.showLess') : `${t('projects.viewAll')} ${filteredProjects.length} ${t('projects.projectsCount')}`}
             </button>
           </div>
         )}
