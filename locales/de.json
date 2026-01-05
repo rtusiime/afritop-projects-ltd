@@ -1,0 +1,408 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "partners": "Partner",
+    "team": "Team",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Exzellenz in Jedem Detail",
+    "title1": "Die Zukunft der Infrastruktur",
+    "title2": "Ostafrikas Aufbauen",
+    "description": "Afritop Ventures Ltd ist ein führender multidisziplinärer Auftragnehmer, der erstklassige Lösungen in Ingenieurwesen, Bauwesen, IKT und Logistik liefert.",
+    "exploreServices": "Unsere Leistungen Entdecken",
+    "aboutUs": "Über Uns",
+    "stats": {
+      "years": "14+ Jahre",
+      "yearsLabel": "Operative Exzellenz",
+      "multiNational": "Multinational",
+      "multiNationalLabel": "Uganda, Kenia, DRK",
+      "verified": "Verifiziert",
+      "verifiedLabel": "Regierung & UN-Agenturen"
+    }
+  },
+  "about": {
+    "sectionTitle": "Über Afritop",
+    "heading": "Exzellenz in Jedem Detail",
+    "description": "Afritop Ventures Ltd ist eines der führenden Unternehmen Ostafrikas in den Bereichen Ingenieurwesen, Bauwesen, Frachttransport und IKT-Infrastruktur. Gegründet 2009, haben wir uns von einem Vertriebsunternehmen zu einem multidisziplinären Kraftwerk entwickelt, das die Region der Großen Seen bedient.",
+    "established": "Früher als KAM Distributors gegründet, heute ein regionaler Marktführer.",
+    "tabs": {
+      "vision": "Unsere Vision",
+      "mission": "Unsere Mission",
+      "values": "Kernwerte"
+    },
+    "visionTitle": "Vision",
+    "visionText": "Der führende Anbieter allgemeiner Dienstleistungen in Ostafrika zu sein, fähig, große Projekte ohne Kompromisse bei Standards, Qualität und Sicherheit zu liefern.",
+    "missionTitle": "Mission",
+    "missionText": "Der führende Hauptauftragnehmer in Infrastrukturentwicklung, Beschaffung, Transport und verwandten technischen Dienstleistungen für Industriesektoren in der ostafrikanischen Region zu sein.",
+    "valuesTitle": "Unsere Werte",
+    "value1": "Höchste Standards an Professionalität",
+    "value2": "Vollständige Ehrlichkeit und Integrität",
+    "value3": "Sicherheit und Umweltverantwortung"
+  },
+  "services": {
+    "sectionTitle": "Unsere Expertise",
+    "heading": "Umfassende Lösungen für Komplexe Projekte",
+    "description": "Wir kombinieren technische Expertise mit lokalem Wissen, um Projekte zu liefern, die internationale Qualitäts- und Sicherheitsstandards erfüllen.",
+    "items": {
+      "ict": {
+        "title": "IKT-Infrastruktur",
+        "description": "End-to-End-Technologielösungen einschließlich Software, Hardware und Netzwerkintegration.",
+        "details": ["Software & Hardware Lieferung", "Systemintegration", "CCTV-Installation", "Sprach- & Datensysteme"]
+      },
+      "civil": {
+        "title": "Tiefbau",
+        "description": "Bau von Straßen, Brücken und Strukturen, die Gemeinschaften verbinden.",
+        "details": ["Straßenbau", "Brückenbau", "Wiegebrücken", "Erdarbeiten"]
+      },
+      "water": {
+        "title": "Wasserbau",
+        "description": "Umfassende Wasserbaulösungen für industrielle und kommunale Bedürfnisse.",
+        "details": ["Pumpstationen", "Wasserversorgungsnetze", "Taldämme", "Brunnenbau"]
+      },
+      "building": {
+        "title": "Hochbau",
+        "description": "Gewerbliche und Wohnbauprojekte von der Grundsteinlegung bis zur Fertigstellung.",
+        "details": ["Gewerbegebäude", "Dacharbeiten", "Mechanische Arbeiten", "Tragwerksplanung"]
+      },
+      "plant": {
+        "title": "Anlagen & Ausrüstung",
+        "description": "Vermietung von schweren Maschinen und Ausrüstung für große Bauprojekte.",
+        "details": ["Baumaschinen", "Kräne", "LKWs", "Bauwerkzeuge"]
+      },
+      "logistics": {
+        "title": "Beschaffung & Logistik",
+        "description": "Effizientes Lieferkettenmanagement und Frachttransport in ganz Ostafrika.",
+        "details": ["Frachttransport", "Materialprüfung", "Zuschlagstofflieferung", "Allgemeine Lieferungen"]
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Kontaktieren Sie Uns",
+    "heading": "Starten Sie Ihr Projekt Mit Uns",
+    "description": "Ob Sie komplexe Ingenieurlösungen, IKT-Infrastruktur oder zuverlässige Logistik benötigen, unser Team steht bereit.",
+    "headOffice": "Hauptsitz",
+    "callUs": "Rufen Sie Uns An",
+    "emailUs": "Schreiben Sie Uns",
+    "form": {
+      "title": "Nachricht Senden",
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "phone": "Telefon",
+      "phonePlaceholder": "+256...",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "max@firma.de",
+      "serviceInterest": "Interessierter Service",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
+      "submit": "Nachricht Senden",
+      "sending": "Wird gesendet...",
+      "required": "erforderlich"
+    },
+    "serviceOptions": {
+      "construction": "Bauwesen & Ingenieurwesen",
+      "ict": "IKT-Infrastruktur",
+      "logistics": "Beschaffung & Logistik",
+      "plant": "Maschinenvermietung",
+      "partnerships": "Partnerschaften & Joint Ventures",
+      "other": "Sonstiges"
+    },
+    "success": {
+      "title": "Nachricht Gesendet!",
+      "message": "Vielen Dank für Ihre Anfrage. Wir melden uns innerhalb von 24 Stunden.",
+      "sendAnother": "Weitere Nachricht senden"
+    },
+    "error": {
+      "required": "Bitte füllen Sie alle Pflichtfelder aus.",
+      "failed": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    },
+    "footer": {
+      "copyright": "Afritop Ventures Ltd. Alle Rechte vorbehalten.",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen"
+    }
+  },
+  "language": {
+    "select": "Sprache",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "zh": "中文",
+    "ar": "العربية"
+  },
+  "projects": {
+    "sectionTitle": "Portfolio",
+    "heading": "Exzellenz in Allen Sektoren",
+    "description": "Afritop Ventures Ltd hat erfolgreich an wettbewerbsfähigen Ausschreibungsverfahren für Beschaffung, Lieferungen und Ingenieurprojekte auf lokaler und internationaler Ebene teilgenommen.",
+    "allProjects": "Alle Projekte",
+    "viewDetails": "Klicken für Details",
+    "showLess": "Weniger Anzeigen",
+    "viewAll": "Alle Anzeigen",
+    "projectsCount": "Projekte",
+    "completed": "Abgeschlossen",
+    "ongoing": "Laufend",
+    "categories": {
+      "Road Construction": "Straßenbau",
+      "Building Construction": "Hochbau",
+      "Water Works": "Wasserbau",
+      "Civil Engineering": "Tiefbau",
+      "ICT Infrastructure": "IKT-Infrastruktur",
+      "Plant & Equipment": "Anlagen & Ausrüstung"
+    },
+    "items": {
+      "road-construction-grading": {
+        "title": "Straßenbau und Planierungsarbeiten",
+        "location": "Kasese Distrikt, Uganda",
+        "client": "Uganda Nationalstraßenbehörde",
+        "duration": "18 Monate",
+        "description": "Umfassendes Straßenbau- und Planierungsprojekt mit moderner Ausrüstung und Techniken zur Schaffung dauerhafter Straßeninfrastruktur für ländliche Gemeinden.",
+        "scope": [
+          "Geländeräumung und -vorbereitung",
+          "Planierung und Nivellierung",
+          "Entwässerungssysteme Installation",
+          "Straßendeckenverlegung",
+          "Verkehrssicherheitsmaßnahmen"
+        ],
+        "highlights": [
+          "Über 25 km neue Straße fertiggestellt",
+          "Termingerechte Lieferung innerhalb des Budgets",
+          "Null Sicherheitsvorfälle"
+        ]
+      },
+      "residential-estate-development": {
+        "title": "Wohnsiedlung Entwicklung",
+        "location": "Entebbe, Uganda",
+        "client": "Privater Bauträger",
+        "duration": "24 Monate",
+        "description": "Premium-Wohnsiedlungsentwicklung mit modernen Häusern, Landschaftsgestaltung und vollständiger Infrastruktur einschließlich Straßen, Wasser und Strom.",
+        "scope": [
+          "Standortvorbereitung und Infrastruktur",
+          "Wohngebäudebau",
+          "Landschaftsgestaltung",
+          "Interne Straßen und Gehwege",
+          "Versorgungsanschlüsse"
+        ],
+        "highlights": [
+          "20+ Premium-Wohneinheiten",
+          "Nachhaltige Baupraktiken",
+          "Laufendes Projekt mit pünktlichen Meilensteinen"
+        ]
+      },
+      "swimming-pool-construction": {
+        "title": "Schwimmbadanlage",
+        "location": "Kampala, Uganda",
+        "client": "Privater Hotelkunde",
+        "duration": "6 Monate",
+        "description": "Professioneller Schwimmbadbau mit modernen Filtersystemen, Sicherheitsmerkmalen und ästhetischem Design für eine kommerzielle Hotelanlage.",
+        "scope": [
+          "Aushubarbeiten",
+          "Betonwannen Konstruktion",
+          "Fliesenlege Arbeiten",
+          "Filtrations Systeminstallation",
+          "Deck- und Landschaftsgestaltung"
+        ],
+        "highlights": [
+          "Olympisches Standardschwimmbecken",
+          "Energieeffiziente Pumpensysteme",
+          "5-Sterne-Hotelstandards"
+        ]
+      },
+      "water-pipeline-installation": {
+        "title": "Wasserversorgungsleitung und Pumpstation",
+        "location": "Ostuganda",
+        "client": "Nationale Wasser- und Abwassergesellschaft",
+        "duration": "18 Monate",
+        "description": "Großes Wasserversorgungsinfrastrukturprojekt einschließlich Verlegung von Rohrleitungen und Bau von Pumpstationen zur Versorgung ländlicher Gemeinden mit sauberem Wasser.",
+        "scope": [
+          "Pumpstationsbau",
+          "Pumpeninstallation",
+          "Verlegung von Rohrleitungen",
+          "Ventilkammerbau",
+          "Prüfung und Inbetriebnahme"
+        ],
+        "highlights": [
+          "Über 50.000 Begünstigte versorgt",
+          "24/7 Wasserversorgung erreicht",
+          "Qualitätsstandards übertroffen"
+        ]
+      },
+      "culvert-bridge-construction": {
+        "title": "Durchlass und Brückenbau",
+        "location": "Zentraluganda",
+        "client": "Kommunalverwaltung",
+        "duration": "8 Monate",
+        "description": "Bau von Durchlässen und kleinen Brückenstrukturen zur Verbesserung der Konnektivität und Verhinderung von Überschwemmungen während der Regenzeit.",
+        "scope": [
+          "Fundament Aushub",
+          "Stahlbetonarbeiten",
+          "Durchlassverlegung",
+          "Uferbefestigung",
+          "Oberflächenveredelung"
+        ],
+        "highlights": [
+          "Hochwasserbeständiges Design",
+          "Vor dem Zeitplan fertiggestellt",
+          "Kommunale Konnektivität verbessert"
+        ]
+      },
+      "school-infrastructure": {
+        "title": "Schulinfrastruktur Projekt",
+        "location": "Verschiedene Standorte, Uganda",
+        "client": "Bildungsministerium",
+        "duration": "12 Monate",
+        "description": "Umfassendes Schulinfrastrukturprojekt einschließlich Klassenzimmerbau, Sanitäranlagen und Pflasterarbeiten für verschiedene Schulen.",
+        "scope": [
+          "Klassenzimmerbau",
+          "Sanitäreinrichtungen",
+          "Schulhof Pflasterung",
+          "Spielplatzbau",
+          "Wassertankinstallation"
+        ],
+        "highlights": [
+          "Mehrere Schulen profitiert",
+          "Verbesserte Lernumgebungen",
+          "Nachhaltige Bauweise"
+        ]
+      },
+      "ict-infrastructure": {
+        "title": "IKT-Infrastruktur Projekt",
+        "location": "Kampala, Uganda",
+        "client": "Verschiedene Unternehmenskunden",
+        "duration": "Laufend seit 2020",
+        "description": "Umfassende IKT-Infrastrukturprojekte einschließlich strukturierter Verkabelung, Netzwerkinstallation, CCTV-Systeme und Rechenzentrumseinrichtung.",
+        "scope": [
+          "Strukturierte Verkabelungsinstallation",
+          "Netzwerkinfrastruktur",
+          "CCTV- und Sicherheitssysteme",
+          "Rechenzentrumseinrichtung",
+          "Telekommunikationslösungen"
+        ],
+        "highlights": [
+          "Über 50 Standorte ausgestattet",
+          "99,9% Netzwerkverfügbarkeit erreicht",
+          "Enterprise-Level-Lösungen"
+        ]
+      },
+      "plant-equipment-hire": {
+        "title": "Anlagen- und Gerätevermietung",
+        "location": "Ostafrika",
+        "client": "Verschiedene Baukunden",
+        "duration": "Seit 2009 aktiv",
+        "description": "Umfangreiche Vermietungsdienste für Baumaschinen und schwere Geräte zur Unterstützung von Infrastrukturprojekten in ganz Ostafrika.",
+        "scope": [
+          "Baggervermietung",
+          "LKW- und Kipper-Dienste",
+          "Walzen und Verdichter",
+          "Generatorvermietung",
+          "Spezialgerätevermietung"
+        ],
+        "highlights": [
+          "Über 50 Ausrüstungseinheiten",
+          "Regionale Abdeckung",
+          "24/7 Support verfügbar"
+        ]
+      },
+      "commercial-building": {
+        "title": "Mehrstöckiges Gewerbegebäude",
+        "location": "Kampala, Uganda",
+        "client": "Privater Bauträger",
+        "duration": "30 Monate",
+        "description": "Bau eines modernen mehrstöckigen Gewerbegebäudes mit Büroflächen, Einzelhandelsflächen und unterirdischen Parkplätzen.",
+        "scope": [
+          "Tiefgründung",
+          "Stahlbetonrahmen",
+          "Fassadenarbeiten",
+          "MEP-Systeme",
+          "Innenausbau"
+        ],
+        "highlights": [
+          "12-stöckiges Gebäude",
+          "Grüne Baustandards",
+          "Moderne Architektur"
+        ]
+      }
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "Strategische Partnerschaften",
+    "heading": "Joint Ventures & Partnerschaften",
+    "description": "Wir laden internationale Unternehmen ein, sich mit uns für große Projekte in Afrika zusammenzuschließen. Als lokaler Partner bieten wir die nötige Expertise, Beziehungen und Präsenz vor Ort für die erfolgreiche Umsetzung großer Projekte in der Region.",
+    "projectsAbove": "Für Projekte über 350 Millionen USD",
+    "whyPartner": "Warum mit uns zusammenarbeiten?",
+    "benefits": {
+      "localExpertise": {
+        "title": "Lokale Expertise",
+        "description": "Tiefes Verständnis des ostafrikanischen Marktes, der Regulierungslandschaft und Geschäftskultur."
+      },
+      "establishedPresence": {
+        "title": "Etablierte Präsenz",
+        "description": "Über 15 Jahre Betrieb mit nachgewiesener Erfolgsbilanz in Uganda und der Region der Großen Seen."
+      },
+      "trustedRelationships": {
+        "title": "Vertrauensvolle Beziehungen",
+        "description": "Starke Verbindungen zu Regierungsbehörden, Regulierungsstellen und Branchenakteuren."
+      },
+      "collaborativeApproach": {
+        "title": "Kooperativer Ansatz",
+        "description": "Flexible Partnerschaftsstrukturen einschließlich Joint Ventures, Konsortien und strategischer Allianzen."
+      }
+    },
+    "consultancy": {
+      "title": "Beschaffungsberatung",
+      "description": "Wir bieten umfassende professionelle Beschaffungsberatung, um internationalen Partnern bei der erfolgreichen Sicherung und Ausführung von Verträgen in Afrika zu helfen:",
+      "services": [
+        "Identifizierung tragfähiger Projekte",
+        "Regierungslobby für Verträge",
+        "Vorbereitung und Anordnung von Ausschreibungsunterlagen",
+        "Unterstützung bei Angebotsabgaben",
+        "Ermöglichung von Vorstellungen bei wichtigen Stakeholdern",
+        "Koordination von Meetings, Präsentationen und Verhandlungen",
+        "Beschaffung von Räumlichkeiten, Genehmigungen und Lizenzen",
+        "Einrichtung von Zentren: Lagerplätze, Ausrüstungsparks, Wartungswerkstätten und Logistikzentren"
+      ],
+      "note": "Plus alle zusätzlichen oder verwandten Dienstleistungen, die vernünftigerweise erforderlich sind, um die erfolgreiche Sicherung von Verträgen zu gewährleisten, die zur Vergabe und Ausführung mit Regierungen oder anderen relevanten Auftraggebern führen."
+    },
+    "funded": {
+      "title": "International Finanzierte Projekte",
+      "description": "Arbeiten Sie mit uns zusammen, um Ausschreibungen zu gewinnen und Projekte auszuführen, die finanziert werden von:",
+      "projectTypes": "Projekttypen:",
+      "types": [
+        "Bau, Sanierung und Renovierung von Eisenbahnlinien und Infrastruktur",
+        "Bau und Sanierung von Binnenhäfen",
+        "Bau und Sanierung internationaler Flughäfen",
+        "Bau nationaler Autobahnen",
+        "Stromerzeugung und Projekte für erneuerbare Energien",
+        "Großflächige Wasser- und Sanitärinfrastruktur"
+      ]
+    },
+    "cta": {
+      "title": "Bereit zur Partnerschaft?",
+      "description": "Für internationale Unternehmen: Gewinnen Sie Ausschreibungen und führen Sie große Projekte in Afrika durch eine Partnerschaft mit einem vertrauenswürdigen lokalen Unternehmen aus. Wir werden Ihr lokaler Partner in einem Joint Venture oder einer strategischen Partnerschaftsvereinbarung und bieten die lokale Expertise und Beziehungen, die für den Erfolg unerlässlich sind.",
+      "button": "Partnerschaft Besprechen"
+    }
+  },
+  "team": {
+    "sectionTitle": "Führung",
+    "heading": "Unser Team Kennenlernen",
+    "viewFullTeam": "Vollständiges Team Anzeigen",
+    "meetAllMembers": "Alle 18+ Teammitglieder Kennenlernen",
+    "roles": {
+      "ceo": "Geschäftsführer",
+      "managingDirector": "Geschäftsführender Direktor",
+      "technicalDirector": "Technischer Direktor"
+    }
+  },
+  "clients": {
+    "sectionTitle": "Vertraut von",
+    "heading": "Unsere Kunden & Partner",
+    "governmentPartners": "Regierungs- & Entwicklungspartner"
+  },
+  "projectModal": {
+    "projectOverview": "Projektübersicht",
+    "scopeOfWork": "Leistungsumfang",
+    "projectHighlights": "Projekt-Highlights"
+  }
+}

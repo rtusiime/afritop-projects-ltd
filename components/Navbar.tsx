@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { LanguageSelector } from './LanguageSelector';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const isHome = location.pathname === '/';
 
@@ -35,13 +38,13 @@ export const Navbar: React.FC = () => {
   };
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Partners', href: '#partnerships' },
-    { name: 'Team', href: '/team', isRoute: true },
-    { name: 'Contact Us', href: '#contact' },
+    { name: t('nav.home'), href: '#home' },
+    { name: t('nav.about'), href: '#about' },
+    { name: t('nav.services'), href: '#services' },
+    { name: t('nav.projects'), href: '#projects' },
+    { name: t('nav.partners'), href: '#partnerships' },
+    { name: t('nav.team'), href: '/team', isRoute: true },
+    { name: t('nav.contact'), href: '#contact' },
   ];
 
   return (
@@ -86,10 +89,13 @@ export const Navbar: React.FC = () => {
                 </button>
               )
             ))}
+            <div className="border-l border-gray-300/30 h-6 mx-2"></div>
+            <LanguageSelector variant={scrolled || !isHome ? 'dark' : 'light'} />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden">
+          <div className="lg:hidden flex items-center space-x-2">
+            <LanguageSelector variant={scrolled || !isHome ? 'dark' : 'light'} />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`p-2 rounded-md ${scrolled || !isHome ? 'text-gray-900' : 'text-white'}`}

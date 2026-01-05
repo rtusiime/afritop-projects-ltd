@@ -1,0 +1,318 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "projects": "Projets",
+    "partners": "Partenaires",
+    "team": "Équipe",
+    "contact": "Contactez-Nous"
+  },
+  "hero": {
+    "tagline": "L'Excellence Dans Chaque Détail",
+    "title1": "Construire l'Avenir de",
+    "title2": "l'Infrastructure de l'Afrique de l'Est",
+    "description": "Afritop Ventures Ltd est un entrepreneur multidisciplinaire de premier plan offrant des solutions de classe mondiale en ingénierie, construction, TIC et logistique.",
+    "exploreServices": "Découvrir Nos Services",
+    "aboutUs": "À Propos de Nous",
+    "stats": {
+      "years": "14+ Ans",
+      "yearsLabel": "Excellence Opérationnelle",
+      "multiNational": "Multi-National",
+      "multiNationalLabel": "Ouganda, Kenya, RDC",
+      "verified": "Vérifié",
+      "verifiedLabel": "Agences Gouv. & ONU"
+    }
+  },
+  "about": {
+    "sectionTitle": "À Propos d'Afritop",
+    "heading": "L'Excellence Dans Chaque Détail",
+    "description": "Afritop Ventures Ltd est l'une des principales entreprises d'Afrique de l'Est dans les domaines de l'ingénierie, de la construction, du transport de marchandises et de l'infrastructure TIC. Fondée en 2009, nous avons évolué d'une société de distribution à une puissance multidisciplinaire au service de la région des Grands Lacs.",
+    "established": "Anciennement établie sous le nom de KAM Distributors, maintenant un leader régional.",
+    "tabs": {
+      "vision": "Notre Vision",
+      "mission": "Notre Mission",
+      "values": "Nos Valeurs"
+    },
+    "visionTitle": "Déclaration de Vision",
+    "visionText": "Être le principal fournisseur de services généraux en Afrique de l'Est, capable de réaliser des projets majeurs sans compromettre les normes, la qualité et la sécurité.",
+    "missionTitle": "Déclaration de Mission",
+    "missionText": "Être le principal entrepreneur en développement d'infrastructure, approvisionnement, transport et services techniques connexes au service des secteurs industriels de la région est-africaine.",
+    "valuesTitle": "Nos Valeurs",
+    "value1": "Les plus hauts standards de professionnalisme",
+    "value2": "Honnêteté et intégrité complètes",
+    "value3": "Sécurité et responsabilité environnementale"
+  },
+  "services": {
+    "sectionTitle": "Notre Expertise",
+    "heading": "Solutions Complètes pour Projets Complexes",
+    "description": "Nous combinons expertise technique et connaissance locale pour livrer des projets répondant aux normes internationales de qualité et de sécurité.",
+    "items": {
+      "ict": {
+        "title": "Infrastructure TIC",
+        "description": "Solutions technologiques de bout en bout incluant logiciels, matériels et intégration réseau.",
+        "details": ["Fourniture Logiciels & Matériels", "Intégration Système", "Installation CCTV", "Systèmes Voix & Données"]
+      },
+      "civil": {
+        "title": "Génie Civil",
+        "description": "Construction de routes, ponts et structures qui relient les communautés.",
+        "details": ["Construction de Routes", "Construction de Ponts", "Ponts-bascules", "Terrassements"]
+      },
+      "water": {
+        "title": "Travaux Hydrauliques",
+        "description": "Solutions complètes d'ingénierie hydraulique pour besoins industriels et municipaux.",
+        "details": ["Stations de Pompage", "Réseaux d'Eau", "Barrages", "Forage de Puits"]
+      },
+      "building": {
+        "title": "Construction de Bâtiments",
+        "description": "Projets de construction commerciale et résidentielle gérés de la fondation à la finition.",
+        "details": ["Bâtiments Commerciaux", "Travaux de Toiture", "Travaux Mécaniques", "Conception Structurelle"]
+      },
+      "plant": {
+        "title": "Matériel & Équipement",
+        "description": "Location de machines lourdes et équipements pour projets de construction à grande échelle.",
+        "details": ["Engins de Chantier", "Grues", "Camions", "Outils de Construction"]
+      },
+      "logistics": {
+        "title": "Approvisionnement & Logistique",
+        "description": "Gestion efficace de la chaîne d'approvisionnement et transport de marchandises en Afrique de l'Est.",
+        "details": ["Transport de Marchandises", "Essais de Matériaux", "Fourniture de Granulats", "Fournitures Générales"]
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contactez-Nous",
+    "heading": "Démarrez Votre Projet Avec Nous",
+    "description": "Que vous ayez besoin de solutions d'ingénierie complexes, d'infrastructure TIC ou de logistique fiable, notre équipe est prête à vous aider.",
+    "headOffice": "Siège Social",
+    "callUs": "Appelez-Nous",
+    "emailUs": "Écrivez-Nous",
+    "form": {
+      "title": "Envoyer un Message",
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+256...",
+      "email": "Adresse Email",
+      "emailPlaceholder": "jean@entreprise.com",
+      "serviceInterest": "Service d'Intérêt",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "required": "requis"
+    },
+    "serviceOptions": {
+      "construction": "Construction & Ingénierie",
+      "ict": "Infrastructure TIC",
+      "logistics": "Approvisionnement & Logistique",
+      "plant": "Location de Matériel",
+      "partnerships": "Partenariats & Coentreprises",
+      "other": "Autre"
+    },
+    "success": {
+      "title": "Message Envoyé!",
+      "message": "Merci pour votre demande. Nous vous répondrons dans les 24 heures.",
+      "sendAnother": "Envoyer un autre message"
+    },
+    "error": {
+      "required": "Veuillez remplir tous les champs obligatoires.",
+      "failed": "Échec de l'envoi du message. Veuillez réessayer ou nous contacter directement."
+    },
+    "footer": {
+      "copyright": "Afritop Ventures Ltd. Tous droits réservés.",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
+  },
+  "language": {
+    "select": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "zh": "中文",
+    "ar": "العربية"
+  },
+  "projects": {
+    "sectionTitle": "Portfolio",
+    "heading": "Excellence dans Tous les Secteurs",
+    "description": "Afritop Ventures Ltd a participé avec succès à des processus d'appel d'offres compétitifs pour l'approvisionnement, les fournitures et les projets d'ingénierie au niveau local et international.",
+    "allProjects": "Tous les Projets",
+    "viewDetails": "Cliquez pour voir les détails",
+    "showLess": "Voir Moins",
+    "viewAll": "Voir Tous",
+    "projectsCount": "Projets",
+    "completed": "Terminé",
+    "ongoing": "En Cours",
+    "categories": {
+      "Road Construction": "Construction Routière",
+      "Building Construction": "Construction de Bâtiments",
+      "Water Works": "Travaux Hydrauliques",
+      "Civil Engineering": "Génie Civil",
+      "ICT Infrastructure": "Infrastructure TIC",
+      "Plant & Equipment": "Matériel & Équipement"
+    },
+    "items": {
+      "road-construction-grading": {
+        "title": "Nivellement Routier et Revêtement Bitumineux",
+        "location": "Divers Districts, Ouganda",
+        "client": "Autorité Nationale des Routes de l'Ouganda (UNRA)",
+        "duration": "12 mois",
+        "description": "Projet complet de construction routière impliquant la construction, l'entretien et l'amélioration de routes en gravier et bitumineuses dans plusieurs districts de l'Ouganda.",
+        "scope": ["Construction de routes en gravier et bitumineuses", "Entretien et amélioration des routes", "Construction de ponts et d'intersections", "Construction de ponts-bascules", "Installation d'éclairage public", "Réhabilitation des routes existantes", "Travaux de terrassement", "Construction de chaussées", "Systèmes de drainage routier"],
+        "highlights": ["Achevé en avance avec zéro incident de sécurité", "Utilisation de pratiques de construction durables", "Création d'emplois pour plus de 200 travailleurs locaux", "Amélioration de la connectivité pour les communautés rurales"]
+      },
+      "residential-estate-development": {
+        "title": "Développement de Lotissement Résidentiel Multi-Unités",
+        "location": "Kampala, Ouganda",
+        "client": "Promoteur Privé",
+        "duration": "24 mois",
+        "description": "Développement de lotissement résidentiel à grande échelle comprenant plusieurs unités de maisons en rangée avec des équipements modernes.",
+        "scope": ["Travaux de toiture avec des matériaux de qualité", "Menuiserie et ébénisterie", "Carrelage de sols et murs", "Soudure et fabrication métallique", "Travaux de terrazzo et fournitures générales", "Travaux et installations électriques", "Travaux de plomberie et mécaniques", "Travaux de peinture et de finition", "Travaux d'excavation et de fondation", "Conception structurelle et services de conseil"],
+        "highlights": ["Plus de 20 unités résidentielles en construction", "Design architectural moderne avec esthétique locale", "Matériaux de construction durables utilisés", "Systèmes de sécurité et de services intégrés"]
+      },
+      "swimming-pool-construction": {
+        "title": "Piscine Commerciale et Installations Récréatives",
+        "location": "Kampala, Ouganda",
+        "client": "Client Hôtelier",
+        "duration": "8 mois",
+        "description": "Conception et construction d'une installation de piscine de qualité commerciale comprenant des systèmes de filtration, la construction de la terrasse et l'aménagement paysager.",
+        "scope": ["Excavation et construction de la coque de piscine", "Travaux d'imperméabilisation et de carrelage", "Installation du système de filtration", "Construction de la terrasse de piscine", "Aménagement paysager et espaces extérieurs", "Systèmes d'éclairage et électriques", "Plomberie et drainage", "Installation d'équipements de sécurité"],
+        "highlights": ["Système de filtration aux normes olympiques installé", "Systèmes de pompage et de chauffage écoénergétiques", "Entièrement conforme aux réglementations de santé et sécurité", "Environnement paysager avec sièges extérieurs"]
+      },
+      "water-pipeline-installation": {
+        "title": "Construction de Canalisations et Stations de Pompage",
+        "location": "Est de l'Ouganda",
+        "client": "Société Nationale de l'Eau et de l'Assainissement",
+        "duration": "18 mois",
+        "description": "Projet majeur d'infrastructure hydraulique impliquant la construction de stations de pompage d'eau, l'installation de canalisations de grand diamètre et le développement de réseaux de distribution d'eau.",
+        "scope": ["Construction de stations de pompage d'eau", "Installation de pompes à eau", "Construction de réseaux d'eau canalisée", "Construction de systèmes d'eau gravitaire", "Construction et réhabilitation de forages", "Construction de barrages de vallée", "Construction d'étangs à poissons", "Systèmes d'approvisionnement en eau en gros", "Réseaux de distribution d'eau", "Réservoirs de stockage et stations de pompage"],
+        "highlights": ["Plus de 50 000 bénéficiaires servis", "Temps de collecte d'eau réduit de 75%", "Pratiques de gestion durable de l'eau mises en œuvre", "Techniciens locaux formés pour la maintenance continue"]
+      },
+      "culvert-bridge-construction": {
+        "title": "Construction de Ponceaux et Ponts",
+        "location": "Nord de l'Ouganda",
+        "client": "Gouvernement Local du District",
+        "duration": "10 mois",
+        "description": "Construction de ponceaux en béton armé et de structures de ponts pour améliorer le drainage et la connectivité dans les zones sujettes aux inondations.",
+        "scope": ["Construction de canaux et d'aqueducs", "Systèmes d'eaux pluviales canalisées", "Bassins d'atténuation et de rétention", "Construction de ponceaux en béton armé", "Construction de culées de pont", "Mesures de contrôle de l'érosion", "Améliorations du drainage routier"],
+        "highlights": ["Résistance réussie aux événements d'inondation majeurs", "Amélioration de l'accessibilité routière pendant les saisons des pluies", "Réduction des dommages causés par les inondations", "Utilisation de matériaux de construction locaux"]
+      },
+      "school-infrastructure": {
+        "title": "Infrastructure Scolaire et Travaux de Pavage",
+        "location": "Ouganda Rural",
+        "client": "Ministère de l'Éducation",
+        "duration": "6 mois",
+        "description": "Développement complet de l'infrastructure scolaire comprenant la construction de blocs de salles de classe, le pavage des cours d'école et l'installation des installations essentielles.",
+        "scope": ["Construction de blocs de salles de classe", "Pavage des cours d'école", "Construction d'installations sanitaires", "Installations électriques", "Systèmes d'approvisionnement en eau", "Clôtures et dispositifs de sécurité", "Systèmes de drainage", "Aménagement paysager et espaces extérieurs"],
+        "highlights": ["Plus de 1 500 étudiants bénéficiaires", "Installations accessibles aux personnes handicapées incluses", "Éclairage solaire installé", "Participation communautaire à la construction"]
+      },
+      "ict-infrastructure": {
+        "title": "Installation d'Infrastructure Réseau TIC",
+        "location": "Kampala et Districts Environnants",
+        "client": "Ministères Gouvernementaux et Organisations Privées",
+        "duration": "En Cours",
+        "description": "Solutions d'infrastructure TIC de bout en bout comprenant le câblage réseau, la construction de salles de serveurs, les systèmes de vidéosurveillance et l'infrastructure de télécommunications.",
+        "scope": ["Fourniture et installation de logiciels", "Fourniture et installation de matériel", "Conception de systèmes et de logiciels", "Services d'intégration de systèmes", "Conseil TIC général", "Solutions TIC de bout en bout", "Support et maintenance pour les projets TIC", "Installation et surveillance de vidéosurveillance", "Réseaux téléphoniques et informatiques", "Systèmes vocaux et de données généraux"],
+        "highlights": ["Plus de 500 caméras CCTV installées sur plusieurs sites", "Infrastructure réseau de niveau entreprise déployée", "Services de support et maintenance 24/7", "Personnel client formé aux opérations système"]
+      },
+      "plant-equipment-hire": {
+        "title": "Services de Location d'Équipements Lourds",
+        "location": "Région Afrique de l'Est",
+        "client": "Diverses Entreprises de Construction",
+        "duration": "En Cours",
+        "description": "Afritop maintient une flotte complète d'équipements de construction lourds disponibles à la location, y compris des excavateurs, des niveleuses, des compacteurs, des chargeuses et des camions.",
+        "scope": ["Machines jaunes (excavateurs, chargeuses, niveleuses)", "Équipements et outils de construction", "Services de grue pour le levage lourd", "Location de camions pour le transport", "Équipement de compactage", "Équipement de mélange de béton", "Équipement de topographie", "Générateurs et équipement électrique"],
+        "highlights": ["Flotte de plus de 50 machines lourdes", "Opérateurs expérimentés disponibles", "Tarifs de location compétitifs", "Déploiement rapide à travers l'Afrique de l'Est"]
+      },
+      "commercial-building": {
+        "title": "Immeuble Commercial Multi-Étages",
+        "location": "Centre-ville de Kampala, Ouganda",
+        "client": "Promoteur Commercial",
+        "duration": "30 mois",
+        "description": "Construction d'un complexe commercial moderne multi-étages comprenant des espaces de bureaux, des unités commerciales et des installations de stationnement.",
+        "scope": ["Conception et ingénierie structurelle", "Travaux de fondation et d'infrastructure", "Construction d'ossature en béton armé", "Installation de murs-rideaux et de façades", "Systèmes MEP (Mécanique, Électrique, Plomberie)", "Travaux de finition intérieure", "Installation d'ascenseurs et d'escalators", "Systèmes de sécurité incendie", "Construction de structure de stationnement"],
+        "highlights": ["Structure de 8 étages avec parking en sous-sol", "Principes de conception de bâtiments verts appliqués", "Systèmes d'extinction d'incendie de pointe", "Matériaux de finition haut de gamme partout"]
+      }
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "Partenariats Stratégiques",
+    "heading": "Coentreprises & Partenariats",
+    "description": "Nous invitons les entreprises internationales à s'associer avec nous pour des projets majeurs en Afrique. En tant que partenaire local, nous fournissons l'expertise, les relations et la présence sur le terrain nécessaires pour exécuter avec succès des projets à grande échelle dans la région.",
+    "projectsAbove": "Pour Projets de 350 Millions USD et Plus",
+    "whyPartner": "Pourquoi S'Associer Avec Nous?",
+    "benefits": {
+      "localExpertise": {
+        "title": "Expertise Locale",
+        "description": "Compréhension approfondie du marché est-africain, du paysage réglementaire et de la culture des affaires."
+      },
+      "establishedPresence": {
+        "title": "Présence Établie",
+        "description": "Plus de 15 ans d'opérations avec un historique prouvé en Ouganda et dans la région des Grands Lacs."
+      },
+      "trustedRelationships": {
+        "title": "Relations de Confiance",
+        "description": "Liens solides avec les agences gouvernementales, les organismes de réglementation et les parties prenantes de l'industrie."
+      },
+      "collaborativeApproach": {
+        "title": "Approche Collaborative",
+        "description": "Structures de partenariat flexibles incluant coentreprises, consortiums et alliances stratégiques."
+      }
+    },
+    "consultancy": {
+      "title": "Services de Conseil en Approvisionnement",
+      "description": "Nous fournissons des services complets de conseil professionnel en approvisionnement pour aider les partenaires internationaux à obtenir et exécuter avec succès des contrats en Afrique:",
+      "services": [
+        "Identifier des projets viables",
+        "Lobbying auprès du gouvernement pour les contrats",
+        "Préparation et arrangement des documents d'appel d'offres",
+        "Assistance aux soumissions d'appels d'offres",
+        "Faciliter les présentations aux parties prenantes clés",
+        "Coordonner les réunions, présentations et négociations",
+        "Acquisition de locaux, permis et licences",
+        "Mise en place de centres: parcs de stockage, parcs d'équipement, ateliers de maintenance et centres logistiques"
+      ],
+      "note": "Plus tout service auxiliaire ou connexe raisonnablement nécessaire pour assurer l'obtention réussie des contrats aboutissant à l'attribution et à l'exécution avec les gouvernements ou toute autre entité contractante pertinente."
+    },
+    "funded": {
+      "title": "Projets Financés Internationalement",
+      "description": "Associez-vous à nous pour remporter des appels d'offres et exécuter des projets financés par:",
+      "projectTypes": "Types de Projets:",
+      "types": [
+        "Construction, réhabilitation et rénovation de lignes ferroviaires et infrastructure de support",
+        "Construction et réhabilitation de ports fluviaux",
+        "Construction et réhabilitation d'aéroports internationaux",
+        "Construction de routes nationales",
+        "Production d'électricité et projets d'énergie renouvelable",
+        "Infrastructure d'eau et d'assainissement à grande échelle"
+      ]
+    },
+    "cta": {
+      "title": "Prêt à S'Associer?",
+      "description": "Pour les Entreprises Internationales: Remportez des appels d'offres et exécutez des projets majeurs en Afrique grâce à un partenariat avec une entreprise locale de confiance. Nous devenons votre partenaire local dans une coentreprise ou un arrangement de partenariat stratégique, fournissant l'expertise locale et les relations essentielles au succès.",
+      "button": "Discuter du Partenariat"
+    }
+  },
+  "team": {
+    "sectionTitle": "Direction",
+    "heading": "Rencontrez Notre Équipe",
+    "viewFullTeam": "Voir l'Équipe Complète",
+    "meetAllMembers": "Rencontrez les 18+ Membres de l'Équipe",
+    "roles": {
+      "ceo": "PDG",
+      "managingDirector": "Directeur Général",
+      "technicalDirector": "Directeur Technique"
+    }
+  },
+  "clients": {
+    "sectionTitle": "Ils Nous Font Confiance",
+    "heading": "Nos Clients & Partenaires",
+    "governmentPartners": "Partenaires Gouvernementaux & de Développement"
+  },
+  "projectModal": {
+    "projectOverview": "Aperçu du Projet",
+    "scopeOfWork": "Portée des Travaux",
+    "projectHighlights": "Points Forts du Projet"
+  }
+}

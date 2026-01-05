@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Target, Eye, Award } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export const About: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'vision' | 'mission' | 'values'>('vision');
+  const { t } = useTranslation();
 
   return (
     <section id="about" className="py-20 bg-white">
@@ -20,38 +22,37 @@ export const About: React.FC = () => {
             </div>
             <div className="absolute -bottom-6 -right-6 bg-brand-blue p-8 rounded-xl shadow-xl z-20 max-w-xs hidden md:block">
               <p className="text-brand-gold text-4xl font-bold mb-2">2009</p>
-              <p className="text-white font-medium">Established formerly as KAM Distributors, now a regional leader.</p>
+              <p className="text-white font-medium">{t('about.established')}</p>
             </div>
           </div>
 
           {/* Content Side */}
           <div>
-            <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">About Afritop</h2>
-            <h3 className="text-4xl font-bold text-gray-900 mb-6">Excellence in Every Detail</h3>
+            <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">{t('about.sectionTitle')}</h2>
+            <h3 className="text-4xl font-bold text-gray-900 mb-6">{t('about.heading')}</h3>
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Afritop Ventures Ltd is one of East Africa's leading companies in engineering, construction, cargo transportation, and ICT infrastructure. 
-              Founded in 2009, we have evolved from a distribution company into a multi-disciplinary powerhouse serving the Great Lakes region.
+              {t('about.description')}
             </p>
 
             {/* Tabs */}
-            <div className="bg-gray-50 rounded-xl p-2 mb-8 inline-flex">
-              <button 
+            <div className="bg-gray-50 rounded-xl p-2 mb-8 inline-flex flex-wrap">
+              <button
                 onClick={() => setActiveTab('vision')}
                 className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${activeTab === 'vision' ? 'bg-brand-blue text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
               >
-                Our Vision
+                {t('about.tabs.vision')}
               </button>
-              <button 
+              <button
                 onClick={() => setActiveTab('mission')}
                 className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${activeTab === 'mission' ? 'bg-brand-blue text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
               >
-                Our Mission
+                {t('about.tabs.mission')}
               </button>
-              <button 
+              <button
                 onClick={() => setActiveTab('values')}
                 className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${activeTab === 'values' ? 'bg-brand-blue text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
               >
-                Core Values
+                {t('about.tabs.values')}
               </button>
             </div>
 
@@ -60,10 +61,10 @@ export const About: React.FC = () => {
                 <div className="animate-fadeIn">
                   <div className="flex items-center mb-4">
                     <Eye className="w-8 h-8 text-brand-gold mr-4" />
-                    <h4 className="text-xl font-bold text-gray-900">Vision Statement</h4>
+                    <h4 className="text-xl font-bold text-gray-900">{t('about.visionTitle')}</h4>
                   </div>
                   <p className="text-gray-600">
-                    To be the leading General Services provider in East Africa, capable of delivering major projects without compromising standards, quality, and safety.
+                    {t('about.visionText')}
                   </p>
                 </div>
               )}
@@ -71,10 +72,10 @@ export const About: React.FC = () => {
                 <div className="animate-fadeIn">
                   <div className="flex items-center mb-4">
                     <Target className="w-8 h-8 text-brand-gold mr-4" />
-                    <h4 className="text-xl font-bold text-gray-900">Mission Statement</h4>
+                    <h4 className="text-xl font-bold text-gray-900">{t('about.missionTitle')}</h4>
                   </div>
                   <p className="text-gray-600">
-                    To be the leading prime contractor in infrastructure development, procurement supplies, transportation, and related technical services organization serving industry sectors in the East African Region.
+                    {t('about.missionText')}
                   </p>
                 </div>
               )}
@@ -82,12 +83,12 @@ export const About: React.FC = () => {
                 <div className="animate-fadeIn">
                   <div className="flex items-center mb-4">
                     <Award className="w-8 h-8 text-brand-gold mr-4" />
-                    <h4 className="text-xl font-bold text-gray-900">Our Values</h4>
+                    <h4 className="text-xl font-bold text-gray-900">{t('about.valuesTitle')}</h4>
                   </div>
                   <ul className="space-y-2 text-gray-600">
-                    <li className="flex items-center"><div className="w-2 h-2 bg-brand-gold rounded-full mr-2"></div>Highest standards of professionalism</li>
-                    <li className="flex items-center"><div className="w-2 h-2 bg-brand-gold rounded-full mr-2"></div>Complete honesty and integrity</li>
-                    <li className="flex items-center"><div className="w-2 h-2 bg-brand-gold rounded-full mr-2"></div>Safety and environmental responsibility</li>
+                    <li className="flex items-center"><div className="w-2 h-2 bg-brand-gold rounded-full mr-2"></div>{t('about.value1')}</li>
+                    <li className="flex items-center"><div className="w-2 h-2 bg-brand-gold rounded-full mr-2"></div>{t('about.value2')}</li>
+                    <li className="flex items-center"><div className="w-2 h-2 bg-brand-gold rounded-full mr-2"></div>{t('about.value3')}</li>
                   </ul>
                 </div>
               )}

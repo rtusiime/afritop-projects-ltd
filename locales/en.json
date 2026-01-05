@@ -1,0 +1,451 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "partners": "Partners",
+    "team": "Team",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "tagline": "Excellence In Every Detail",
+    "title1": "Building the Future of",
+    "title2": "East Africa's Infrastructure",
+    "description": "Afritop Ventures Ltd is a premier multi-disciplinary contractor delivering world-class solutions in Engineering, Construction, ICT, and Logistics.",
+    "exploreServices": "Explore Our Services",
+    "aboutUs": "About Us",
+    "stats": {
+      "years": "14+ Years",
+      "yearsLabel": "Operational Excellence",
+      "multiNational": "Multi-National",
+      "multiNationalLabel": "Uganda, Kenya, DRC",
+      "verified": "Verified",
+      "verifiedLabel": "Govt & UN Agencies"
+    }
+  },
+  "about": {
+    "sectionTitle": "About Afritop",
+    "heading": "Excellence in Every Detail",
+    "description": "Afritop Ventures Ltd is one of East Africa's leading companies in engineering, construction, cargo transportation, and ICT infrastructure. Founded in 2009, we have evolved from a distribution company into a multi-disciplinary powerhouse serving the Great Lakes region.",
+    "established": "Established formerly as KAM Distributors, now a regional leader.",
+    "tabs": {
+      "vision": "Our Vision",
+      "mission": "Our Mission",
+      "values": "Core Values"
+    },
+    "visionTitle": "Vision Statement",
+    "visionText": "To be the leading General Services provider in East Africa, capable of delivering major projects without compromising standards, quality, and safety.",
+    "missionTitle": "Mission Statement",
+    "missionText": "To be the leading prime contractor in infrastructure development, procurement supplies, transportation, and related technical services organization serving industry sectors in the East African Region.",
+    "valuesTitle": "Our Values",
+    "value1": "Highest standards of professionalism",
+    "value2": "Complete honesty and integrity",
+    "value3": "Safety and environmental responsibility"
+  },
+  "services": {
+    "sectionTitle": "Our Expertise",
+    "heading": "Comprehensive Solutions for Complex Projects",
+    "description": "We combine technical expertise with local knowledge to deliver projects that meet international standards of quality and safety.",
+    "items": {
+      "ict": {
+        "title": "ICT Infrastructure",
+        "description": "End-to-end technological solutions including software, hardware, and network integration.",
+        "details": ["Software & Hardware Supply", "System Integration", "CCTV Installation", "Voice & Data Systems"]
+      },
+      "civil": {
+        "title": "Civil Engineering",
+        "description": "Construction of roads, bridges, and structural frameworks that connect communities.",
+        "details": ["Road Construction", "Bridge Construction", "Weighbridges", "Bulk Earthworks"]
+      },
+      "water": {
+        "title": "Water Works",
+        "description": "Comprehensive water engineering solutions for industrial and municipal needs.",
+        "details": ["Pumping Stations", "Piped Water Schemes", "Valley Dams", "Borehole Construction"]
+      },
+      "building": {
+        "title": "Building Construction",
+        "description": "Commercial and residential building projects managed from foundation to finish.",
+        "details": ["Commercial Buildings", "Roofing Works", "Mechanical Works", "Structural Design"]
+      },
+      "plant": {
+        "title": "Plant & Equipment",
+        "description": "Rental of heavy machinery and equipment for large-scale construction projects.",
+        "details": ["Yellow Machines", "Cranes", "Trucks", "Construction Tools"]
+      },
+      "logistics": {
+        "title": "Procurement & Logistics",
+        "description": "Efficient supply chain management and cargo transportation across East Africa.",
+        "details": ["Cargo Transportation", "Material Testing", "Aggregate Supply", "General Supplies"]
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Get in Touch",
+    "heading": "Start Your Project With Us",
+    "description": "Whether you need complex engineering solutions, ICT infrastructure, or reliable logistics, our team is ready to assist.",
+    "headOffice": "Head Office",
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "form": {
+      "title": "Send a Message",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "phone": "Phone",
+      "phonePlaceholder": "+256...",
+      "email": "Email Address",
+      "emailPlaceholder": "john@company.com",
+      "serviceInterest": "Service Interest",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "required": "required"
+    },
+    "serviceOptions": {
+      "construction": "Construction & Engineering",
+      "ict": "ICT Infrastructure",
+      "logistics": "Procurement & Logistics",
+      "plant": "Plant Hire",
+      "partnerships": "Partnerships & Joint Ventures",
+      "other": "Other"
+    },
+    "success": {
+      "title": "Message Sent!",
+      "message": "Thank you for your inquiry. We'll get back to you within 24 hours.",
+      "sendAnother": "Send another message"
+    },
+    "error": {
+      "required": "Please fill in all required fields.",
+      "failed": "Failed to send message. Please try again or contact us directly."
+    },
+    "footer": {
+      "copyright": "Afritop Ventures Ltd. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "language": {
+    "select": "Language",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "zh": "中文",
+    "ar": "العربية"
+  },
+  "projects": {
+    "sectionTitle": "Portfolio",
+    "heading": "Delivering Excellence Across Sectors",
+    "description": "Afritop Ventures Ltd has successfully participated in competitive bidding processes for procurement, supplies, and engineering projects both locally and internationally.",
+    "allProjects": "All Projects",
+    "viewDetails": "Click to view details",
+    "showLess": "Show Less",
+    "viewAll": "View All",
+    "projectsCount": "Projects",
+    "completed": "Completed",
+    "ongoing": "Ongoing",
+    "categories": {
+      "Road Construction": "Road Construction",
+      "Building Construction": "Building Construction",
+      "Water Works": "Water Works",
+      "Civil Engineering": "Civil Engineering",
+      "ICT Infrastructure": "ICT Infrastructure",
+      "Plant & Equipment": "Plant & Equipment"
+    },
+    "items": {
+      "road-construction-grading": {
+        "title": "Road Grading & Bituminous Surfacing",
+        "location": "Various Districts, Uganda",
+        "client": "Uganda National Roads Authority (UNRA)",
+        "duration": "12 months",
+        "description": "Comprehensive road construction project involving gravel and bituminous road construction, maintenance, and improvements across multiple districts in Uganda. The project utilized state-of-the-art motor graders, compactors, and paving equipment to deliver high-quality road surfaces that meet international standards.",
+        "scope": [
+          "Gravel and Bituminous road construction",
+          "Road maintenance and improvements",
+          "Construction of bridges and intersections",
+          "Construction of weighbridges",
+          "Street lighting installation",
+          "Rehabilitation of existing roads",
+          "Bulk earthworks and land preparation",
+          "Pavement construction",
+          "Road drainage systems"
+        ],
+        "highlights": [
+          "Completed ahead of schedule with zero safety incidents",
+          "Used environmentally sustainable construction practices",
+          "Created employment for over 200 local workers",
+          "Improved connectivity for rural communities"
+        ]
+      },
+      "residential-estate-development": {
+        "title": "Multi-Unit Residential Estate Development",
+        "location": "Kampala, Uganda",
+        "client": "Private Developer",
+        "duration": "24 months",
+        "description": "Large-scale residential estate development featuring multiple townhouse units with modern amenities. The project includes comprehensive civil works, structural construction, roofing, electrical installations, plumbing, and landscaping. Each unit is designed with contemporary architecture while incorporating local building traditions.",
+        "scope": [
+          "Roofing works with quality materials",
+          "Carpentry and joinery works",
+          "Floor and wall tiling",
+          "Welding and metal fabrication",
+          "Terrazo works and general supplies",
+          "Electrical works and installations",
+          "Plumbing and mechanical works",
+          "Painting and finishing works",
+          "Excavation and foundation works",
+          "Structural designs and consultancy services"
+        ],
+        "highlights": [
+          "Over 20 residential units under construction",
+          "Modern architectural design with local aesthetics",
+          "Sustainable building materials used throughout",
+          "Integrated security and utility systems"
+        ]
+      },
+      "swimming-pool-construction": {
+        "title": "Commercial Swimming Pool & Recreation Facility",
+        "location": "Kampala, Uganda",
+        "client": "Hospitality Client",
+        "duration": "8 months",
+        "description": "Design and construction of a commercial-grade swimming pool facility including filtration systems, deck construction, landscaping, and associated recreational amenities. The project required specialized waterproofing techniques and compliance with international safety standards.",
+        "scope": [
+          "Excavation and pool shell construction",
+          "Waterproofing and tiling works",
+          "Filtration system installation",
+          "Pool deck construction",
+          "Landscaping and outdoor areas",
+          "Lighting and electrical systems",
+          "Plumbing and drainage",
+          "Safety equipment installation"
+        ],
+        "highlights": [
+          "Olympic-standard filtration system installed",
+          "Energy-efficient pump and heating systems",
+          "Fully compliant with health and safety regulations",
+          "Landscaped surroundings with outdoor seating"
+        ]
+      },
+      "water-pipeline-installation": {
+        "title": "Water Pipeline & Pumping Station Construction",
+        "location": "Eastern Uganda",
+        "client": "National Water & Sewerage Corporation",
+        "duration": "18 months",
+        "description": "Major water infrastructure project involving the construction of water pumping stations, installation of large-diameter pipelines, and development of piped water distribution schemes. The project significantly improved water access for over 50,000 residents in underserved communities.",
+        "scope": [
+          "Construction of water-pumping stations",
+          "Installation of water pumps",
+          "Construction of piped-water schemes",
+          "Construction of gravity-flow water schemes",
+          "Bore-hole construction and rehabilitation",
+          "Construction of valley dams",
+          "Fish pond construction",
+          "Bulk water supply systems",
+          "Water distribution networks",
+          "Storage reservoirs and pumping stations"
+        ],
+        "highlights": [
+          "Served over 50,000 beneficiaries",
+          "Reduced water collection time by 75%",
+          "Implemented sustainable water management practices",
+          "Trained local technicians for ongoing maintenance"
+        ]
+      },
+      "culvert-bridge-construction": {
+        "title": "Culvert & Bridge Construction",
+        "location": "Northern Uganda",
+        "client": "District Local Government",
+        "duration": "10 months",
+        "description": "Construction of reinforced concrete box culverts and bridge structures to improve drainage and connectivity in flood-prone areas. The project involved complex engineering solutions to manage seasonal water flows while maintaining year-round road access.",
+        "scope": [
+          "Construction of water channels and canals",
+          "Piped storm-water systems",
+          "Attenuation and retention ponds",
+          "Reinforced concrete culvert construction",
+          "Bridge abutment construction",
+          "Erosion control measures",
+          "Road drainage improvements"
+        ],
+        "highlights": [
+          "Withstood major flooding events successfully",
+          "Improved road accessibility during rainy seasons",
+          "Reduced flood damage to surrounding areas",
+          "Used locally-sourced construction materials"
+        ]
+      },
+      "school-infrastructure": {
+        "title": "School Infrastructure & Paving Works",
+        "location": "Rural Uganda",
+        "client": "Ministry of Education",
+        "duration": "6 months",
+        "description": "Comprehensive school infrastructure development including construction of classroom blocks, paving of school compounds, and installation of essential facilities. The project aimed to improve learning environments and provide safe, accessible spaces for students and staff.",
+        "scope": [
+          "Construction of classroom blocks",
+          "Paving of school compounds",
+          "Construction of sanitation facilities",
+          "Electrical installations",
+          "Water supply systems",
+          "Fencing and security features",
+          "Drainage systems",
+          "Landscaping and outdoor areas"
+        ],
+        "highlights": [
+          "Benefited over 1,500 students",
+          "Included disability-accessible facilities",
+          "Solar-powered lighting installed",
+          "Community involvement in construction"
+        ]
+      },
+      "ict-infrastructure": {
+        "title": "ICT Network Infrastructure Installation",
+        "location": "Kampala & Surrounding Districts",
+        "client": "Government Ministries & Private Organizations",
+        "duration": "Ongoing",
+        "description": "End-to-end ICT infrastructure solutions including network cabling, server room construction, CCTV surveillance systems, and telecommunications infrastructure. Afritop has partnered with leading technology providers to deliver cutting-edge solutions for both government and private sector clients.",
+        "scope": [
+          "Supply and installation of software",
+          "Supply and installation of hardware",
+          "System and software design",
+          "System integration services",
+          "General ICT consulting",
+          "End-to-end ICT solutions",
+          "Support and maintenance for ICT projects",
+          "CCTV installation and monitoring",
+          "Telephone and computer networks",
+          "General voice and data systems"
+        ],
+        "highlights": [
+          "Installed over 500 CCTV cameras across multiple sites",
+          "Deployed enterprise-grade network infrastructure",
+          "24/7 support and maintenance services",
+          "Trained client staff on system operations"
+        ]
+      },
+      "plant-equipment-hire": {
+        "title": "Heavy Equipment & Plant Hire Services",
+        "location": "East Africa Region",
+        "client": "Various Construction Companies",
+        "duration": "Ongoing",
+        "description": "Afritop maintains a comprehensive fleet of heavy construction equipment available for hire, including excavators, graders, compactors, loaders, and trucks. Our equipment is regularly maintained to ensure reliability and safety on all project sites.",
+        "scope": [
+          "Yellow machines (excavators, loaders, graders)",
+          "Construction equipment and tools",
+          "Crane services for heavy lifting",
+          "Truck hire for material transport",
+          "Compaction equipment",
+          "Concrete mixing equipment",
+          "Surveying equipment",
+          "Generators and power equipment"
+        ],
+        "highlights": [
+          "Fleet of over 50 heavy machines",
+          "Experienced operators available",
+          "Competitive hire rates",
+          "Rapid deployment across East Africa"
+        ]
+      },
+      "commercial-building": {
+        "title": "Multi-Storey Commercial Building",
+        "location": "Kampala CBD, Uganda",
+        "client": "Commercial Developer",
+        "duration": "30 months",
+        "description": "Construction of a modern multi-storey commercial complex featuring office spaces, retail units, and parking facilities. The project showcases Afritop's capability to handle complex structural engineering challenges and deliver premium commercial spaces.",
+        "scope": [
+          "Structural design and engineering",
+          "Foundation and substructure works",
+          "Reinforced concrete frame construction",
+          "Curtain wall and facade installation",
+          "MEP (Mechanical, Electrical, Plumbing) systems",
+          "Interior finishing works",
+          "Elevator and escalator installation",
+          "Fire safety systems",
+          "Parking structure construction"
+        ],
+        "highlights": [
+          "8-storey structure with basement parking",
+          "Green building design principles applied",
+          "State-of-the-art fire suppression systems",
+          "Premium finishing materials throughout"
+        ]
+      }
+    }
+  },
+  "partnerships": {
+    "sectionTitle": "Strategic Partnerships",
+    "heading": "Joint Ventures & Partnerships",
+    "description": "We invite international companies to partner with us for major projects in Africa. As your local partner, we provide the expertise, relationships, and on-ground presence needed to successfully execute large-scale projects across the region.",
+    "projectsAbove": "For Projects USD 350 Million & Above",
+    "whyPartner": "Why Partner With Us?",
+    "benefits": {
+      "localExpertise": {
+        "title": "Local Expertise",
+        "description": "Deep understanding of the East African market, regulatory landscape, and business culture."
+      },
+      "establishedPresence": {
+        "title": "Established Presence",
+        "description": "Over 15 years of operations with proven track record across Uganda and the Great Lakes region."
+      },
+      "trustedRelationships": {
+        "title": "Trusted Relationships",
+        "description": "Strong ties with government agencies, regulatory bodies, and industry stakeholders."
+      },
+      "collaborativeApproach": {
+        "title": "Collaborative Approach",
+        "description": "Flexible partnership structures including joint ventures, consortiums, and strategic alliances."
+      }
+    },
+    "consultancy": {
+      "title": "Procurement Consultancy Services",
+      "description": "We provide comprehensive professional procurement consultancy services to help international partners successfully secure and execute contracts in Africa:",
+      "services": [
+        "Identify viable projects",
+        "Lobby government for contracts",
+        "Preparation and arrangement of bid documents",
+        "Assist with tender submissions",
+        "Facilitate introductions to key stakeholders",
+        "Coordinate meetings, presentations and negotiations",
+        "Acquisition of work premises, permits, and licenses",
+        "Setup of central hubs: storage yards, equipment yards, maintenance workshops, and logistics centers"
+      ],
+      "note": "Plus any ancillary or related services reasonably necessary to achieve successful procurement of contracts culminating in award and execution with governments or any other relevant contracting entity."
+    },
+    "funded": {
+      "title": "Internationally Funded Projects",
+      "description": "Partner with us to win tenders and execute projects funded by:",
+      "projectTypes": "Project Types:",
+      "types": [
+        "Construction, refurbishment and rehabilitation of railway lines and support infrastructure",
+        "Construction and refurbishment of inland water ports",
+        "Construction and refurbishment of international airports",
+        "Construction of highway roads",
+        "Electric power generation and renewable energy projects",
+        "Large-scale water and sanitation infrastructure"
+      ]
+    },
+    "cta": {
+      "title": "Ready to Partner?",
+      "description": "For International Companies: Win tenders and execute major projects in Africa through partnership with a trusted local company. We become your local partner in a joint venture or strategic partnership arrangement, providing the local expertise and relationships essential for success.",
+      "button": "Discuss Partnership"
+    }
+  },
+  "team": {
+    "sectionTitle": "Leadership",
+    "heading": "Meet Our Team",
+    "viewFullTeam": "View Full Team",
+    "meetAllMembers": "Meet All 18+ Team Members",
+    "roles": {
+      "ceo": "CEO",
+      "managingDirector": "Managing Director",
+      "technicalDirector": "Technical Director"
+    }
+  },
+  "clients": {
+    "sectionTitle": "Trusted By",
+    "heading": "Our Clients & Partners",
+    "governmentPartners": "Government & Development Partners"
+  },
+  "projectModal": {
+    "projectOverview": "Project Overview",
+    "scopeOfWork": "Scope of Work",
+    "projectHighlights": "Project Highlights"
+  }
+}

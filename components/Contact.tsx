@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MapPin, Phone, Mail, X, Loader2, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { submitInquiry } from '../lib/supabase';
 
 const PrivacyPolicy: React.FC<{ onClose: () => void }> = ({ onClose }) => (
@@ -162,6 +163,7 @@ const TermsOfService: React.FC<{ onClose: () => void }> = ({ onClose }) => (
 );
 
 export const Contact: React.FC = () => {
+  const { t } = useTranslation();
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [showTerms, setShowTerms] = useState(false);
   const [formData, setFormData] = useState({
@@ -184,7 +186,7 @@ export const Contact: React.FC = () => {
     e.preventDefault();
 
     if (!formData.full_name || !formData.email || !formData.message) {
-      setErrorMessage('Please fill in all required fields.');
+      setErrorMessage(t('contact.error.required'));
       setSubmitStatus('error');
       return;
     }
@@ -205,7 +207,7 @@ export const Contact: React.FC = () => {
       });
     } catch (error) {
       console.error('Error submitting inquiry:', error);
-      setErrorMessage('Failed to send message. Please try again or contact us directly.');
+      setErrorMessage(t('contact.error.failed'));
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -219,10 +221,10 @@ export const Contact: React.FC = () => {
 
           {/* Contact Info */}
           <div>
-            <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">Get in Touch</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Start Your Project With Us</h3>
+            <h2 className="text-brand-gold font-bold uppercase tracking-wider text-sm mb-2">{t('contact.sectionTitle')}</h2>
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">{t('contact.heading')}</h3>
             <p className="text-gray-600 mb-10">
-              Whether you need complex engineering solutions, ICT infrastructure, or reliable logistics, our team is ready to assist.
+              {t('contact.description')}
             </p>
 
             <div className="space-y-8">
@@ -230,8 +232,8 @@ export const Contact: React.FC = () => {
                 <div className="w-12 h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center shrink-0 shadow-sm">
                   <MapPin className="w-5 h-5 text-brand-gold" />
                 </div>
-                <div className="ml-6">
-                  <h5 className="text-lg font-bold text-gray-900 mb-1">Head Office</h5>
+                <div className="ml-6 rtl:mr-6 rtl:ml-0">
+                  <h5 className="text-lg font-bold text-gray-900 mb-1">{t('contact.headOffice')}</h5>
                   <p className="text-gray-600">Plot 213, Ntinda - Kyanja Road</p>
                   <p className="text-gray-600">Kisaasi Trading Center</p>
                   <p className="text-gray-600">Ntinda, Kampala - Uganda</p>
@@ -243,8 +245,8 @@ export const Contact: React.FC = () => {
                 <div className="w-12 h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center shrink-0 shadow-sm">
                   <Phone className="w-5 h-5 text-brand-gold" />
                 </div>
-                <div className="ml-6">
-                  <h5 className="text-lg font-bold text-gray-900 mb-1">Call Us</h5>
+                <div className="ml-6 rtl:mr-6 rtl:ml-0">
+                  <h5 className="text-lg font-bold text-gray-900 mb-1">{t('contact.callUs')}</h5>
                   <p className="text-gray-600">+256 773 889 613 / +256 751 580 057 (Milton)</p>
                   <p className="text-gray-600">+256 772 521 404 / +256 753 521 404 (Moses)</p>
                 </div>
@@ -254,8 +256,8 @@ export const Contact: React.FC = () => {
                 <div className="w-12 h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center shrink-0 shadow-sm">
                   <Mail className="w-5 h-5 text-brand-gold" />
                 </div>
-                <div className="ml-6">
-                  <h5 className="text-lg font-bold text-gray-900 mb-1">Email Us</h5>
+                <div className="ml-6 rtl:mr-6 rtl:ml-0">
+                  <h5 className="text-lg font-bold text-gray-900 mb-1">{t('contact.emailUs')}</h5>
                   <a href="mailto:info@afritopventures.com" className="text-brand-blue font-medium hover:underline">
                     info@afritopventures.com
                   </a>
@@ -266,20 +268,20 @@ export const Contact: React.FC = () => {
 
           {/* Form */}
           <div className="bg-white p-8 md:p-10 rounded-2xl shadow-lg border border-gray-100">
-            <h4 className="text-2xl font-bold text-gray-900 mb-6">Send a Message</h4>
+            <h4 className="text-2xl font-bold text-gray-900 mb-6">{t('contact.form.title')}</h4>
 
             {submitStatus === 'success' ? (
               <div className="text-center py-12">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-green-600" />
                 </div>
-                <h5 className="text-xl font-bold text-gray-900 mb-2">Message Sent!</h5>
-                <p className="text-gray-600 mb-6">Thank you for your inquiry. We'll get back to you within 24 hours.</p>
+                <h5 className="text-xl font-bold text-gray-900 mb-2">{t('contact.success.title')}</h5>
+                <p className="text-gray-600 mb-6">{t('contact.success.message')}</p>
                 <button
                   onClick={() => setSubmitStatus('idle')}
                   className="text-brand-blue font-medium hover:underline"
                 >
-                  Send another message
+                  {t('contact.success.sendAnother')}
                 </button>
               </div>
             ) : (
@@ -291,66 +293,66 @@ export const Contact: React.FC = () => {
                 )}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">{t('contact.form.fullName')} *</label>
                     <input
                       type="text"
                       name="full_name"
                       value={formData.full_name}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
-                      placeholder="John Doe"
+                      placeholder={t('contact.form.fullNamePlaceholder')}
                       required
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">{t('contact.form.phone')}</label>
                     <input
                       type="tel"
                       name="phone"
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
-                      placeholder="+256..."
+                      placeholder={t('contact.form.phonePlaceholder')}
                     />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t('contact.form.email')} *</label>
                   <input
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
-                    placeholder="john@company.com"
+                    placeholder={t('contact.form.emailPlaceholder')}
                     required
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Service Interest</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t('contact.form.serviceInterest')}</label>
                   <select
                     name="service_interest"
                     value={formData.service_interest}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
                   >
-                    <option>Construction & Engineering</option>
-                    <option>ICT Infrastructure</option>
-                    <option>Procurement & Logistics</option>
-                    <option>Plant Hire</option>
-                    <option>Partnerships & Joint Ventures</option>
-                    <option>Other</option>
+                    <option value="Construction & Engineering">{t('contact.serviceOptions.construction')}</option>
+                    <option value="ICT Infrastructure">{t('contact.serviceOptions.ict')}</option>
+                    <option value="Procurement & Logistics">{t('contact.serviceOptions.logistics')}</option>
+                    <option value="Plant Hire">{t('contact.serviceOptions.plant')}</option>
+                    <option value="Partnerships & Joint Ventures">{t('contact.serviceOptions.partnerships')}</option>
+                    <option value="Other">{t('contact.serviceOptions.other')}</option>
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t('contact.form.message')} *</label>
                   <textarea
                     rows={4}
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-gold focus:ring-0 outline-none transition-all"
-                    placeholder="Tell us about your project..."
+                    placeholder={t('contact.form.messagePlaceholder')}
                     required
                   ></textarea>
                 </div>
@@ -362,10 +364,10 @@ export const Contact: React.FC = () => {
                   {isSubmitting ? (
                     <>
                       <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                      Sending...
+                      {t('contact.form.sending')}
                     </>
                   ) : (
-                    'Send Message'
+                    t('contact.form.submit')
                   )}
                 </button>
               </form>
@@ -374,13 +376,13 @@ export const Contact: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-200 py-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Afritop Ventures Ltd. All rights reserved.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          <p>&copy; {new Date().getFullYear()} {t('contact.footer.copyright')}</p>
+          <div className="flex space-x-6 rtl:space-x-reverse mt-4 md:mt-0">
             <button onClick={() => setShowPrivacy(true)} className="hover:text-brand-blue transition-colors">
-              Privacy Policy
+              {t('contact.footer.privacy')}
             </button>
             <button onClick={() => setShowTerms(true)} className="hover:text-brand-blue transition-colors">
-              Terms of Service
+              {t('contact.footer.terms')}
             </button>
           </div>
         </div>
